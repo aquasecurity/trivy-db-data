@@ -1,1 +1,277 @@
-"W3siYXBpIjoic3RvcmFnZS5rOHMuaW8udjFiZXRhMS5DU0lTdG9yYWdlQ2FwYWNpdHkiLCJkZXByZWNhdGVkLXZlcnNpb24iOiIiLCJyZW1vdmVkLXZlcnNpb24iOiJ2MS4yNyJ9LHsiYXBpIjoiZmxvd2NvbnRyb2wuYXBpc2VydmVyLms4cy5pby52MWJldGExLkZsb3dTY2hlbWEiLCJkZXByZWNhdGVkLXZlcnNpb24iOiIiLCJyZW1vdmVkLXZlcnNpb24iOiJ2MS4yNiJ9LHsiYXBpIjoiZmxvd2NvbnRyb2wuYXBpc2VydmVyLms4cy5pby52MWJldGExLlByaW9yaXR5TGV2ZWxDb25maWd1cmF0aW9uIiwiZGVwcmVjYXRlZC12ZXJzaW9uIjoiIiwicmVtb3ZlZC12ZXJzaW9uIjoidjEuMjYifSx7ImFwaSI6ImF1dG9zY2FsaW5nLnYyYmV0YTIuSG9yaXpvbnRhbFBvZEF1dG9zY2FsZXIiLCJkZXByZWNhdGVkLXZlcnNpb24iOiIiLCJyZW1vdmVkLXZlcnNpb24iOiJ2MS4yNiJ9LHsiYXBpIjoiYmF0Y2gudjFiZXRhMS5Dcm9uSm9iIiwiZGVwcmVjYXRlZC12ZXJzaW9uIjoiIiwicmVtb3ZlZC12ZXJzaW9uIjoidjEuMjUifSx7ImFwaSI6ImRpc2NvdmVyeS5rOHMuaW8udjFiZXRhMS5FbmRwb2ludFNsaWNlIiwiZGVwcmVjYXRlZC12ZXJzaW9uIjoiIiwicmVtb3ZlZC12ZXJzaW9uIjoidjEuMjUifSx7ImFwaSI6ImV2ZW50cy5rOHMuaW8udjFiZXRhMS5FdmVudCIsImRlcHJlY2F0ZWQtdmVyc2lvbiI6IiIsInJlbW92ZWQtdmVyc2lvbiI6InYxLjI1In0seyJhcGkiOiJhdXRvc2NhbGluZy52MmJldGExLkhvcml6b250YWxQb2RBdXRvc2NhbGVyIiwiZGVwcmVjYXRlZC12ZXJzaW9uIjoiIiwicmVtb3ZlZC12ZXJzaW9uIjoidjEuMjUifSx7ImFwaSI6InBvbGljeS52MWJldGExLlBvZERpc3J1cHRpb25CdWRnZXQiLCJkZXByZWNhdGVkLXZlcnNpb24iOiIiLCJyZW1vdmVkLXZlcnNpb24iOiJ2MS4yNSJ9LHsiYXBpIjoibm9kZS5rOHMuaW8udjFiZXRhMS5SdW50aW1lQ2xhc3MiLCJkZXByZWNhdGVkLXZlcnNpb24iOiIiLCJyZW1vdmVkLXZlcnNpb24iOiJ2MS4yNSJ9LHsiYXBpIjoiYWRtaXNzaW9ucmVnaXN0cmF0aW9uLms4cy5pby52MWJldGExLk11dGF0aW5nV2ViaG9va0NvbmZpZ3VyYXRpb24iLCJkZXByZWNhdGVkLXZlcnNpb24iOiIiLCJyZW1vdmVkLXZlcnNpb24iOiJ2MS4yMiJ9LHsiYXBpIjoiYWRtaXNzaW9ucmVnaXN0cmF0aW9uLms4cy5pby52MWJldGExLlZhbGlkYXRpbmdXZWJob29rQ29uZmlndXJhdGlvbiIsImRlcHJlY2F0ZWQtdmVyc2lvbiI6IiIsInJlbW92ZWQtdmVyc2lvbiI6InYxLjIyIn0seyJhcGkiOiJhcGlleHRlbnNpb25zLms4cy5pby52MWJldGExLkN1c3RvbVJlc291cmNlRGVmaW5pdGlvbiIsImRlcHJlY2F0ZWQtdmVyc2lvbiI6IiIsInJlbW92ZWQtdmVyc2lvbiI6InYxLjIyIn0seyJhcGkiOiJhcGlyZWdpc3RyYXRpb24uazhzLmlvLnYxYmV0YTEuQVBJU2VydmljZSIsImRlcHJlY2F0ZWQtdmVyc2lvbiI6IiIsInJlbW92ZWQtdmVyc2lvbiI6InYxLjIyIn0seyJhcGkiOiJhdXRoZW50aWNhdGlvbi5rOHMuaW8udjFiZXRhMS5Ub2tlblJldmlldyIsImRlcHJlY2F0ZWQtdmVyc2lvbiI6IiIsInJlbW92ZWQtdmVyc2lvbiI6InYxLjIyIn0seyJhcGkiOiJhdXRob3JpemF0aW9uLms4cy5pby52MWJldGExLkxvY2FsU3ViamVjdEFjY2Vzc1JldmlldyIsImRlcHJlY2F0ZWQtdmVyc2lvbiI6IiIsInJlbW92ZWQtdmVyc2lvbiI6InYxLjIyIn0seyJhcGkiOiJhdXRob3JpemF0aW9uLms4cy5pby52MWJldGExLlNlbGZTdWJqZWN0QWNjZXNzUmV2aWV3IiwiZGVwcmVjYXRlZC12ZXJzaW9uIjoiIiwicmVtb3ZlZC12ZXJzaW9uIjoidjEuMjIifSx7ImFwaSI6ImF1dGhvcml6YXRpb24uazhzLmlvLnYxYmV0YTEuU3ViamVjdEFjY2Vzc1JldmlldyIsImRlcHJlY2F0ZWQtdmVyc2lvbiI6IiIsInJlbW92ZWQtdmVyc2lvbiI6InYxLjIyIn0seyJhcGkiOiJhdXRob3JpemF0aW9uLms4cy5pby52MWJldGExLlNlbGZTdWJqZWN0UnVsZXNSZXZpZXciLCJkZXByZWNhdGVkLXZlcnNpb24iOiIiLCJyZW1vdmVkLXZlcnNpb24iOiJ2MS4yMiJ9LHsiYXBpIjoiY2VydGlmaWNhdGVzLms4cy5pby52MWJldGExLkNlcnRpZmljYXRlU2lnbmluZ1JlcXVlc3QiLCJkZXByZWNhdGVkLXZlcnNpb24iOiIiLCJyZW1vdmVkLXZlcnNpb24iOiJ2MS4yMiJ9LHsiYXBpIjoiY29vcmRpbmF0aW9uLms4cy5pby52MWJldGExLkxlYXNlIiwiZGVwcmVjYXRlZC12ZXJzaW9uIjoiIiwicmVtb3ZlZC12ZXJzaW9uIjoidjEuMjIifSx7ImFwaSI6ImV4dGVuc2lvbnMudjFiZXRhMS5JbmdyZXNzIiwiZGVwcmVjYXRlZC12ZXJzaW9uIjoiIiwicmVtb3ZlZC12ZXJzaW9uIjoidjEuMjIifSx7ImFwaSI6Im5ldHdvcmtpbmcuazhzLmlvLnYxYmV0YTEuSW5ncmVzcyIsImRlcHJlY2F0ZWQtdmVyc2lvbiI6IiIsInJlbW92ZWQtdmVyc2lvbiI6InYxLjIyIn0seyJhcGkiOiJuZXR3b3JraW5nLms4cy5pby52MWJldGExLkluZ3Jlc3NDbGFzcyIsImRlcHJlY2F0ZWQtdmVyc2lvbiI6IiIsInJlbW92ZWQtdmVyc2lvbiI6InYxLjIyIn0seyJhcGkiOiJyYmFjLmF1dGhvcml6YXRpb24uazhzLmlvLnYxYmV0YTEuQ2x1c3RlclJvbGUiLCJkZXByZWNhdGVkLXZlcnNpb24iOiIiLCJyZW1vdmVkLXZlcnNpb24iOiJ2MS4yMiJ9LHsiYXBpIjoicmJhYy5hdXRob3JpemF0aW9uLms4cy5pby52MWJldGExLkNsdXN0ZXJSb2xlQmluZGluZyIsImRlcHJlY2F0ZWQtdmVyc2lvbiI6IiIsInJlbW92ZWQtdmVyc2lvbiI6InYxLjIyIn0seyJhcGkiOiJyYmFjLmF1dGhvcml6YXRpb24uazhzLmlvLnYxYmV0YTEuUm9sZSIsImRlcHJlY2F0ZWQtdmVyc2lvbiI6IiIsInJlbW92ZWQtdmVyc2lvbiI6InYxLjIyIn0seyJhcGkiOiJyYmFjLmF1dGhvcml6YXRpb24uazhzLmlvLnYxYmV0YTEuUm9sZUJpbmRpbmciLCJkZXByZWNhdGVkLXZlcnNpb24iOiIiLCJyZW1vdmVkLXZlcnNpb24iOiJ2MS4yMiJ9LHsiYXBpIjoic2NoZWR1bGluZy5rOHMuaW8udjFiZXRhMS5Qcmlvcml0eUNsYXNzIiwiZGVwcmVjYXRlZC12ZXJzaW9uIjoiIiwicmVtb3ZlZC12ZXJzaW9uIjoidjEuMjIifSx7ImFwaSI6InN0b3JhZ2UuazhzLmlvLnYxYmV0YTEuQ1NJRHJpdmVyIiwiZGVwcmVjYXRlZC12ZXJzaW9uIjoiIiwicmVtb3ZlZC12ZXJzaW9uIjoidjEuMjIifSx7ImFwaSI6InN0b3JhZ2UuazhzLmlvLnYxYmV0YTEuQ1NJTm9kZSIsImRlcHJlY2F0ZWQtdmVyc2lvbiI6IiIsInJlbW92ZWQtdmVyc2lvbiI6InYxLjIyIn0seyJhcGkiOiJzdG9yYWdlLms4cy5pby52MWJldGExLlN0b3JhZ2VDbGFzcyIsImRlcHJlY2F0ZWQtdmVyc2lvbiI6IiIsInJlbW92ZWQtdmVyc2lvbiI6InYxLjIyIn0seyJhcGkiOiJzdG9yYWdlLms4cy5pby52MWJldGExLlZvbHVtZUF0dGFjaG1lbnQiLCJkZXByZWNhdGVkLXZlcnNpb24iOiIiLCJyZW1vdmVkLXZlcnNpb24iOiJ2MS4yMiJ9LHsiYXBpIjoiZXh0ZW5zaW9ucy52MWJldGExLk5ldHdvcmtQb2xpY3kiLCJkZXByZWNhdGVkLXZlcnNpb24iOiIiLCJyZW1vdmVkLXZlcnNpb24iOiJ2MS4xNiJ9LHsiYXBpIjoiZXh0ZW5zaW9ucy52MWJldGExLlBvZFNlY3VyaXR5UG9saWN5IiwiZGVwcmVjYXRlZC12ZXJzaW9uIjoiIiwicmVtb3ZlZC12ZXJzaW9uIjoidjEuMTYifSx7ImFwaSI6ImFwaWV4dGVuc2lvbnMuazhzLmlvLnYxYmV0YTEuQ3VzdG9tUmVzb3VyY2VEZWZpbml0aW9uIiwiZGVwcmVjYXRlZC12ZXJzaW9uIjoidjEuMTYiLCJyZW1vdmVkLXZlcnNpb24iOiJ2MS4yMiJ9LHsiYXBpIjoicmJhYy5hdXRob3JpemF0aW9uLms4cy5pby52MWFscGhhMS5Sb2xlIiwiZGVwcmVjYXRlZC12ZXJzaW9uIjoidjEuMTciLCJyZW1vdmVkLXZlcnNpb24iOiJ2MS4yMiJ9LHsiYXBpIjoicmJhYy5hdXRob3JpemF0aW9uLms4cy5pby52MWJldGExLlJvbGVMaXN0IiwiZGVwcmVjYXRlZC12ZXJzaW9uIjoidjEuMTciLCJyZW1vdmVkLXZlcnNpb24iOiJ2MS4yMiJ9LHsiYXBpIjoicmJhYy5hdXRob3JpemF0aW9uLms4cy5pby52MWFscGhhMS5Sb2xlTGlzdCIsImRlcHJlY2F0ZWQtdmVyc2lvbiI6InYxLjE3IiwicmVtb3ZlZC12ZXJzaW9uIjoidjEuMjIifSx7ImFwaSI6InBvbGljeS52MWJldGExLlBvZFNlY3VyaXR5UG9saWN5IiwiZGVwcmVjYXRlZC12ZXJzaW9uIjoiMS4yMSIsInJlbW92ZWQtdmVyc2lvbiI6InYxLjI1In0seyJhcGkiOiJhZG1pc3Npb25yZWdpc3RyYXRpb24uazhzLmlvLnYxYmV0YTEuTXV0YXRpbmdXZWJob29rQ29uZmlndXJhdGlvbiIsImRlcHJlY2F0ZWQtdmVyc2lvbiI6InYxLjE2IiwicmVtb3ZlZC12ZXJzaW9uIjoidjEuMTkifSx7ImFwaSI6InJiYWMuYXV0aG9yaXphdGlvbi5rOHMuaW8udjFiZXRhMS5Sb2xlIiwiZGVwcmVjYXRlZC12ZXJzaW9uIjoidjEuMTciLCJyZW1vdmVkLXZlcnNpb24iOiJ2MS4yMiJ9LHsiYXBpIjoiYWRtaXNzaW9ucmVnaXN0cmF0aW9uLms4cy5pby52MWJldGExLlZhbGlkYXRpbmdXZWJob29rQ29uZmlndXJhdGlvbiIsImRlcHJlY2F0ZWQtdmVyc2lvbiI6InYxLjE2IiwicmVtb3ZlZC12ZXJzaW9uIjoidjEuMTkifSx7ImFwaSI6InJiYWMuYXV0aG9yaXphdGlvbi5rOHMuaW8udjFiZXRhMS5Sb2xlQmluZGluZyIsImRlcHJlY2F0ZWQtdmVyc2lvbiI6InYxLjE3IiwicmVtb3ZlZC12ZXJzaW9uIjoidjEuMjIifSx7ImFwaSI6InJiYWMuYXV0aG9yaXphdGlvbi5rOHMuaW8udjFiZXRhMS5DbHVzdGVyUm9sZSIsImRlcHJlY2F0ZWQtdmVyc2lvbiI6InYxLjE3IiwicmVtb3ZlZC12ZXJzaW9uIjoidjEuMjIifSx7ImFwaSI6InJiYWMuYXV0aG9yaXphdGlvbi5rOHMuaW8udjFhbHBoYTEuQ2x1c3RlclJvbGUiLCJkZXByZWNhdGVkLXZlcnNpb24iOiJ2MS4xNyIsInJlbW92ZWQtdmVyc2lvbiI6InYxLjIyIn0seyJhcGkiOiJyYmFjLmF1dGhvcml6YXRpb24uazhzLmlvLnYxYWxwaGExLlJvbGVCaW5kaW5nIiwiZGVwcmVjYXRlZC12ZXJzaW9uIjoidjEuMTciLCJyZW1vdmVkLXZlcnNpb24iOiJ2MS4yMiJ9LHsiYXBpIjoicmJhYy5hdXRob3JpemF0aW9uLms4cy5pby52MWFscGhhMS5DbHVzdGVyUm9sZUxpc3QiLCJkZXByZWNhdGVkLXZlcnNpb24iOiJ2MS4xNyIsInJlbW92ZWQtdmVyc2lvbiI6InYxLjIyIn0seyJhcGkiOiJyYmFjLmF1dGhvcml6YXRpb24uazhzLmlvLnYxYmV0YTEuQ2x1c3RlclJvbGVCaW5kaW5nTGlzdCIsImRlcHJlY2F0ZWQtdmVyc2lvbiI6InYxLjE3IiwicmVtb3ZlZC12ZXJzaW9uIjoidjEuMjIifSx7ImFwaSI6InJiYWMuYXV0aG9yaXphdGlvbi5rOHMuaW8udjFiZXRhMS5DbHVzdGVyUm9sZUxpc3QiLCJkZXByZWNhdGVkLXZlcnNpb24iOiJ2MS4xNyIsInJlbW92ZWQtdmVyc2lvbiI6InYxLjIyIn0seyJhcGkiOiJyYmFjLmF1dGhvcml6YXRpb24uazhzLmlvLnYxYWxwaGExLlJvbGVCaW5kaW5nTGlzdCIsImRlcHJlY2F0ZWQtdmVyc2lvbiI6InYxLjE3IiwicmVtb3ZlZC12ZXJzaW9uIjoidjEuMjIifSx7ImFwaSI6InJiYWMuYXV0aG9yaXphdGlvbi5rOHMuaW8udjFiZXRhMS5DbHVzdGVyUm9sZUJpbmRpbmciLCJkZXByZWNhdGVkLXZlcnNpb24iOiJ2MS4xNyIsInJlbW92ZWQtdmVyc2lvbiI6InYxLjIyIn0seyJhcGkiOiJyYmFjLmF1dGhvcml6YXRpb24uazhzLmlvLnYxYmV0YTEuUm9sZUJpbmRpbmdMaXN0IiwiZGVwcmVjYXRlZC12ZXJzaW9uIjoidjEuMTciLCJyZW1vdmVkLXZlcnNpb24iOiJ2MS4yMiJ9LHsiYXBpIjoicmJhYy5hdXRob3JpemF0aW9uLms4cy5pby52MWFscGhhMS5DbHVzdGVyUm9sZUJpbmRpbmdMaXN0IiwiZGVwcmVjYXRlZC12ZXJzaW9uIjoidjEuMTciLCJyZW1vdmVkLXZlcnNpb24iOiJ2MS4yMiJ9LHsiYXBpIjoicmJhYy5hdXRob3JpemF0aW9uLms4cy5pby52MWFscGhhMS5DbHVzdGVyUm9sZUJpbmRpbmciLCJkZXByZWNhdGVkLXZlcnNpb24iOiJ2MS4xNyIsInJlbW92ZWQtdmVyc2lvbiI6InYxLjIyIn1d"
+[
+	{
+		"api": "storage.k8s.io.v1beta1.CSIStorageCapacity",
+		"deprecated-version": "",
+		"removed-version": "v1.27"
+	},
+	{
+		"api": "flowcontrol.apiserver.k8s.io.v1beta1.FlowSchema",
+		"deprecated-version": "",
+		"removed-version": "v1.26"
+	},
+	{
+		"api": "flowcontrol.apiserver.k8s.io.v1beta1.PriorityLevelConfiguration",
+		"deprecated-version": "",
+		"removed-version": "v1.26"
+	},
+	{
+		"api": "autoscaling.v2beta2.HorizontalPodAutoscaler",
+		"deprecated-version": "",
+		"removed-version": "v1.26"
+	},
+	{
+		"api": "batch.v1beta1.CronJob",
+		"deprecated-version": "",
+		"removed-version": "v1.25"
+	},
+	{
+		"api": "discovery.k8s.io.v1beta1.EndpointSlice",
+		"deprecated-version": "",
+		"removed-version": "v1.25"
+	},
+	{
+		"api": "events.k8s.io.v1beta1.Event",
+		"deprecated-version": "",
+		"removed-version": "v1.25"
+	},
+	{
+		"api": "autoscaling.v2beta1.HorizontalPodAutoscaler",
+		"deprecated-version": "",
+		"removed-version": "v1.25"
+	},
+	{
+		"api": "policy.v1beta1.PodDisruptionBudget",
+		"deprecated-version": "",
+		"removed-version": "v1.25"
+	},
+	{
+		"api": "node.k8s.io.v1beta1.RuntimeClass",
+		"deprecated-version": "",
+		"removed-version": "v1.25"
+	},
+	{
+		"api": "admissionregistration.k8s.io.v1beta1.MutatingWebhookConfiguration",
+		"deprecated-version": "",
+		"removed-version": "v1.22"
+	},
+	{
+		"api": "admissionregistration.k8s.io.v1beta1.ValidatingWebhookConfiguration",
+		"deprecated-version": "",
+		"removed-version": "v1.22"
+	},
+	{
+		"api": "apiextensions.k8s.io.v1beta1.CustomResourceDefinition",
+		"deprecated-version": "",
+		"removed-version": "v1.22"
+	},
+	{
+		"api": "apiregistration.k8s.io.v1beta1.APIService",
+		"deprecated-version": "",
+		"removed-version": "v1.22"
+	},
+	{
+		"api": "authentication.k8s.io.v1beta1.TokenReview",
+		"deprecated-version": "",
+		"removed-version": "v1.22"
+	},
+	{
+		"api": "authorization.k8s.io.v1beta1.LocalSubjectAccessReview",
+		"deprecated-version": "",
+		"removed-version": "v1.22"
+	},
+	{
+		"api": "authorization.k8s.io.v1beta1.SelfSubjectAccessReview",
+		"deprecated-version": "",
+		"removed-version": "v1.22"
+	},
+	{
+		"api": "authorization.k8s.io.v1beta1.SubjectAccessReview",
+		"deprecated-version": "",
+		"removed-version": "v1.22"
+	},
+	{
+		"api": "authorization.k8s.io.v1beta1.SelfSubjectRulesReview",
+		"deprecated-version": "",
+		"removed-version": "v1.22"
+	},
+	{
+		"api": "certificates.k8s.io.v1beta1.CertificateSigningRequest",
+		"deprecated-version": "",
+		"removed-version": "v1.22"
+	},
+	{
+		"api": "coordination.k8s.io.v1beta1.Lease",
+		"deprecated-version": "",
+		"removed-version": "v1.22"
+	},
+	{
+		"api": "extensions.v1beta1.Ingress",
+		"deprecated-version": "",
+		"removed-version": "v1.22"
+	},
+	{
+		"api": "networking.k8s.io.v1beta1.Ingress",
+		"deprecated-version": "",
+		"removed-version": "v1.22"
+	},
+	{
+		"api": "networking.k8s.io.v1beta1.IngressClass",
+		"deprecated-version": "",
+		"removed-version": "v1.22"
+	},
+	{
+		"api": "rbac.authorization.k8s.io.v1beta1.ClusterRole",
+		"deprecated-version": "",
+		"removed-version": "v1.22"
+	},
+	{
+		"api": "rbac.authorization.k8s.io.v1beta1.ClusterRoleBinding",
+		"deprecated-version": "",
+		"removed-version": "v1.22"
+	},
+	{
+		"api": "rbac.authorization.k8s.io.v1beta1.Role",
+		"deprecated-version": "",
+		"removed-version": "v1.22"
+	},
+	{
+		"api": "rbac.authorization.k8s.io.v1beta1.RoleBinding",
+		"deprecated-version": "",
+		"removed-version": "v1.22"
+	},
+	{
+		"api": "scheduling.k8s.io.v1beta1.PriorityClass",
+		"deprecated-version": "",
+		"removed-version": "v1.22"
+	},
+	{
+		"api": "storage.k8s.io.v1beta1.CSIDriver",
+		"deprecated-version": "",
+		"removed-version": "v1.22"
+	},
+	{
+		"api": "storage.k8s.io.v1beta1.CSINode",
+		"deprecated-version": "",
+		"removed-version": "v1.22"
+	},
+	{
+		"api": "storage.k8s.io.v1beta1.StorageClass",
+		"deprecated-version": "",
+		"removed-version": "v1.22"
+	},
+	{
+		"api": "storage.k8s.io.v1beta1.VolumeAttachment",
+		"deprecated-version": "",
+		"removed-version": "v1.22"
+	},
+	{
+		"api": "extensions.v1beta1.NetworkPolicy",
+		"deprecated-version": "",
+		"removed-version": "v1.16"
+	},
+	{
+		"api": "extensions.v1beta1.PodSecurityPolicy",
+		"deprecated-version": "",
+		"removed-version": "v1.16"
+	},
+	{
+		"api": "rbac.authorization.k8s.io.v1beta1.Role",
+		"deprecated-version": "v1.17",
+		"removed-version": "v1.22"
+	},
+	{
+		"api": "admissionregistration.k8s.io.v1beta1.MutatingWebhookConfiguration",
+		"deprecated-version": "v1.16",
+		"removed-version": "v1.19"
+	},
+	{
+		"api": "rbac.authorization.k8s.io.v1alpha1.Role",
+		"deprecated-version": "v1.17",
+		"removed-version": "v1.22"
+	},
+	{
+		"api": "rbac.authorization.k8s.io.v1beta1.ClusterRoleBindingList",
+		"deprecated-version": "v1.17",
+		"removed-version": "v1.22"
+	},
+	{
+		"api": "rbac.authorization.k8s.io.v1alpha1.ClusterRoleBindingList",
+		"deprecated-version": "v1.17",
+		"removed-version": "v1.22"
+	},
+	{
+		"api": "rbac.authorization.k8s.io.v1beta1.ClusterRoleBinding",
+		"deprecated-version": "v1.17",
+		"removed-version": "v1.22"
+	},
+	{
+		"api": "rbac.authorization.k8s.io.v1beta1.RoleBindingList",
+		"deprecated-version": "v1.17",
+		"removed-version": "v1.22"
+	},
+	{
+		"api": "rbac.authorization.k8s.io.v1alpha1.ClusterRoleList",
+		"deprecated-version": "v1.17",
+		"removed-version": "v1.22"
+	},
+	{
+		"api": "rbac.authorization.k8s.io.v1beta1.ClusterRoleList",
+		"deprecated-version": "v1.17",
+		"removed-version": "v1.22"
+	},
+	{
+		"api": "apiextensions.k8s.io.v1beta1.CustomResourceDefinition",
+		"deprecated-version": "v1.16",
+		"removed-version": "v1.22"
+	},
+	{
+		"api": "rbac.authorization.k8s.io.v1alpha1.RoleBinding",
+		"deprecated-version": "v1.17",
+		"removed-version": "v1.22"
+	},
+	{
+		"api": "rbac.authorization.k8s.io.v1beta1.RoleList",
+		"deprecated-version": "v1.17",
+		"removed-version": "v1.22"
+	},
+	{
+		"api": "rbac.authorization.k8s.io.v1alpha1.ClusterRole",
+		"deprecated-version": "v1.17",
+		"removed-version": "v1.22"
+	},
+	{
+		"api": "policy.v1beta1.PodSecurityPolicy",
+		"deprecated-version": "1.21",
+		"removed-version": "v1.25"
+	},
+	{
+		"api": "rbac.authorization.k8s.io.v1alpha1.RoleBindingList",
+		"deprecated-version": "v1.17",
+		"removed-version": "v1.22"
+	},
+	{
+		"api": "rbac.authorization.k8s.io.v1alpha1.RoleList",
+		"deprecated-version": "v1.17",
+		"removed-version": "v1.22"
+	},
+	{
+		"api": "rbac.authorization.k8s.io.v1beta1.ClusterRole",
+		"deprecated-version": "v1.17",
+		"removed-version": "v1.22"
+	},
+	{
+		"api": "admissionregistration.k8s.io.v1beta1.ValidatingWebhookConfiguration",
+		"deprecated-version": "v1.16",
+		"removed-version": "v1.19"
+	},
+	{
+		"api": "rbac.authorization.k8s.io.v1beta1.RoleBinding",
+		"deprecated-version": "v1.17",
+		"removed-version": "v1.22"
+	},
+	{
+		"api": "rbac.authorization.k8s.io.v1alpha1.ClusterRoleBinding",
+		"deprecated-version": "v1.17",
+		"removed-version": "v1.22"
+	}
+]
