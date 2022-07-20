@@ -175,12 +175,7 @@
 		"removed-version": "v1.16"
 	},
 	{
-		"api": "rbac.authorization.k8s.io.v1alpha1.Role",
-		"deprecated-version": "v1.17",
-		"removed-version": "v1.22"
-	},
-	{
-		"api": "rbac.authorization.k8s.io.v1beta1.ClusterRoleBindingList",
+		"api": "rbac.authorization.k8s.io.v1beta1.Role",
 		"deprecated-version": "v1.17",
 		"removed-version": "v1.22"
 	},
@@ -190,32 +185,7 @@
 		"removed-version": "v1.22"
 	},
 	{
-		"api": "rbac.authorization.k8s.io.v1beta1.ClusterRole",
-		"deprecated-version": "v1.17",
-		"removed-version": "v1.22"
-	},
-	{
-		"api": "rbac.authorization.k8s.io.v1alpha1.RoleBinding",
-		"deprecated-version": "v1.17",
-		"removed-version": "v1.22"
-	},
-	{
-		"api": "rbac.authorization.k8s.io.v1alpha1.ClusterRole",
-		"deprecated-version": "v1.17",
-		"removed-version": "v1.22"
-	},
-	{
-		"api": "rbac.authorization.k8s.io.v1alpha1.ClusterRoleList",
-		"deprecated-version": "v1.17",
-		"removed-version": "v1.22"
-	},
-	{
-		"api": "admissionregistration.k8s.io.v1beta1.MutatingWebhookConfiguration",
-		"deprecated-version": "v1.16",
-		"removed-version": "v1.19"
-	},
-	{
-		"api": "rbac.authorization.k8s.io.v1beta1.ClusterRoleBinding",
+		"api": "rbac.authorization.k8s.io.v1alpha1.Role",
 		"deprecated-version": "v1.17",
 		"removed-version": "v1.22"
 	},
@@ -225,12 +195,27 @@
 		"removed-version": "v1.22"
 	},
 	{
-		"api": "rbac.authorization.k8s.io.v1beta1.RoleBindingList",
+		"api": "admissionregistration.k8s.io.v1beta1.ValidatingWebhookConfiguration",
+		"deprecated-version": "v1.16",
+		"removed-version": "v1.19"
+	},
+	{
+		"api": "rbac.authorization.k8s.io.v1alpha1.RoleBindingList",
 		"deprecated-version": "v1.17",
 		"removed-version": "v1.22"
 	},
 	{
-		"api": "rbac.authorization.k8s.io.v1alpha1.ClusterRoleBindingList",
+		"api": "rbac.authorization.k8s.io.v1beta1.ClusterRoleBinding",
+		"deprecated-version": "v1.17",
+		"removed-version": "v1.22"
+	},
+	{
+		"api": "rbac.authorization.k8s.io.v1beta1.ClusterRoleBindingList",
+		"deprecated-version": "v1.17",
+		"removed-version": "v1.22"
+	},
+	{
+		"api": "rbac.authorization.k8s.io.v1alpha1.RoleBinding",
 		"deprecated-version": "v1.17",
 		"removed-version": "v1.22"
 	},
@@ -240,27 +225,12 @@
 		"removed-version": "v1.25"
 	},
 	{
-		"api": "admissionregistration.k8s.io.v1beta1.ValidatingWebhookConfiguration",
-		"deprecated-version": "v1.16",
-		"removed-version": "v1.19"
-	},
-	{
-		"api": "rbac.authorization.k8s.io.v1beta1.Role",
+		"api": "rbac.authorization.k8s.io.v1beta1.ClusterRole",
 		"deprecated-version": "v1.17",
 		"removed-version": "v1.22"
 	},
 	{
-		"api": "rbac.authorization.k8s.io.v1alpha1.ClusterRoleBinding",
-		"deprecated-version": "v1.17",
-		"removed-version": "v1.22"
-	},
-	{
-		"api": "rbac.authorization.k8s.io.v1alpha1.RoleBindingList",
-		"deprecated-version": "v1.17",
-		"removed-version": "v1.22"
-	},
-	{
-		"api": "rbac.authorization.k8s.io.v1beta1.RoleBinding",
+		"api": "rbac.authorization.k8s.io.v1alpha1.ClusterRole",
 		"deprecated-version": "v1.17",
 		"removed-version": "v1.22"
 	},
@@ -270,7 +240,37 @@
 		"removed-version": "v1.22"
 	},
 	{
+		"api": "rbac.authorization.k8s.io.v1beta1.RoleBindingList",
+		"deprecated-version": "v1.17",
+		"removed-version": "v1.22"
+	},
+	{
+		"api": "rbac.authorization.k8s.io.v1beta1.RoleBinding",
+		"deprecated-version": "v1.17",
+		"removed-version": "v1.22"
+	},
+	{
 		"api": "rbac.authorization.k8s.io.v1beta1.RoleList",
+		"deprecated-version": "v1.17",
+		"removed-version": "v1.22"
+	},
+	{
+		"api": "rbac.authorization.k8s.io.v1alpha1.ClusterRoleBindingList",
+		"deprecated-version": "v1.17",
+		"removed-version": "v1.22"
+	},
+	{
+		"api": "admissionregistration.k8s.io.v1beta1.MutatingWebhookConfiguration",
+		"deprecated-version": "v1.16",
+		"removed-version": "v1.19"
+	},
+	{
+		"api": "rbac.authorization.k8s.io.v1alpha1.ClusterRoleBinding",
+		"deprecated-version": "v1.17",
+		"removed-version": "v1.22"
+	},
+	{
+		"api": "rbac.authorization.k8s.io.v1alpha1.ClusterRoleList",
 		"deprecated-version": "v1.17",
 		"removed-version": "v1.22"
 	}
