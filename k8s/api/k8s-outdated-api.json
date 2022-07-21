@@ -1,277 +1,442 @@
 [
 	{
-		"api": "storage.k8s.io.v1beta1.CSIStorageCapacity",
+		"description": "The **storage.k8s.io/v1beta1** API version of CSIStorageCapacity will no longer be served in v1.27.",
 		"deprecated-version": "",
-		"removed-version": "v1.27"
+		"removed-version": "v1.27",
+		"group": "storage.k8s.io",
+		"version": "v1beta1",
+		"kind": "CSIStorageCapacity"
 	},
 	{
-		"api": "flowcontrol.apiserver.k8s.io.v1beta1.FlowSchema",
+		"description": "The **flowcontrol.apiserver.k8s.io/v1beta1** API version of FlowSchema and PriorityLevelConfiguration will no longer be served in v1.26.",
 		"deprecated-version": "",
-		"removed-version": "v1.26"
+		"removed-version": "v1.26",
+		"group": "flowcontrol.apiserver.k8s.io",
+		"version": "v1beta1",
+		"kind": "FlowSchema"
 	},
 	{
-		"api": "flowcontrol.apiserver.k8s.io.v1beta1.PriorityLevelConfiguration",
+		"description": "The **flowcontrol.apiserver.k8s.io/v1beta1** API version of FlowSchema and PriorityLevelConfiguration will no longer be served in v1.26.",
 		"deprecated-version": "",
-		"removed-version": "v1.26"
+		"removed-version": "v1.26",
+		"group": "flowcontrol.apiserver.k8s.io",
+		"version": "v1beta1",
+		"kind": "PriorityLevelConfiguration"
 	},
 	{
-		"api": "autoscaling.v2beta2.HorizontalPodAutoscaler",
+		"description": "The **autoscaling/v2beta2** API version of HorizontalPodAutoscaler will no longer be served in v1.26.",
 		"deprecated-version": "",
-		"removed-version": "v1.26"
+		"removed-version": "v1.26",
+		"group": "autoscaling",
+		"version": "v2beta2",
+		"kind": "HorizontalPodAutoscaler"
 	},
 	{
-		"api": "batch.v1beta1.CronJob",
+		"description": "The **batch/v1beta1** API version of CronJob will no longer be served in v1.25.",
 		"deprecated-version": "",
-		"removed-version": "v1.25"
+		"removed-version": "v1.25",
+		"group": "batch",
+		"version": "v1beta1",
+		"kind": "CronJob"
 	},
 	{
-		"api": "discovery.k8s.io.v1beta1.EndpointSlice",
+		"description": "The **discovery.k8s.io/v1beta1** API version of EndpointSlice will no longer be served in v1.25.",
 		"deprecated-version": "",
-		"removed-version": "v1.25"
+		"removed-version": "v1.25",
+		"group": "discovery.k8s.io",
+		"version": "v1beta1",
+		"kind": "EndpointSlice"
 	},
 	{
-		"api": "events.k8s.io.v1beta1.Event",
+		"description": "The **events.k8s.io/v1beta1** API version of Event will no longer be served in v1.25.",
 		"deprecated-version": "",
-		"removed-version": "v1.25"
+		"removed-version": "v1.25",
+		"group": "events.k8s.io",
+		"version": "v1beta1",
+		"kind": "Event"
 	},
 	{
-		"api": "autoscaling.v2beta1.HorizontalPodAutoscaler",
+		"description": "The **autoscaling/v2beta1** API version of HorizontalPodAutoscaler will no longer be served in v1.25.",
 		"deprecated-version": "",
-		"removed-version": "v1.25"
+		"removed-version": "v1.25",
+		"group": "autoscaling",
+		"version": "v2beta1",
+		"kind": "HorizontalPodAutoscaler"
 	},
 	{
-		"api": "policy.v1beta1.PodDisruptionBudget",
+		"description": "The **policy/v1beta1** API version of PodDisruptionBudget will no longer be served in v1.25.",
 		"deprecated-version": "",
-		"removed-version": "v1.25"
+		"removed-version": "v1.25",
+		"group": "policy",
+		"version": "v1beta1",
+		"kind": "PodDisruptionBudget"
 	},
 	{
-		"api": "node.k8s.io.v1beta1.RuntimeClass",
+		"description": "RuntimeClass in the **node.k8s.io/v1beta1** API version will no longer be served in v1.25.",
 		"deprecated-version": "",
-		"removed-version": "v1.25"
+		"removed-version": "v1.25",
+		"group": "node.k8s.io",
+		"version": "v1beta1",
+		"kind": "RuntimeClass"
 	},
 	{
-		"api": "admissionregistration.k8s.io.v1beta1.MutatingWebhookConfiguration",
+		"description": "The **admissionregistration.k8s.io/v1beta1** API version of MutatingWebhookConfiguration and ValidatingWebhookConfiguration is no longer served as of v1.22.",
 		"deprecated-version": "",
-		"removed-version": "v1.22"
+		"removed-version": "v1.22",
+		"group": "admissionregistration.k8s.io",
+		"version": "v1beta1",
+		"kind": "MutatingWebhookConfiguration"
 	},
 	{
-		"api": "admissionregistration.k8s.io.v1beta1.ValidatingWebhookConfiguration",
+		"description": "The **admissionregistration.k8s.io/v1beta1** API version of MutatingWebhookConfiguration and ValidatingWebhookConfiguration is no longer served as of v1.22.",
 		"deprecated-version": "",
-		"removed-version": "v1.22"
+		"removed-version": "v1.22",
+		"group": "admissionregistration.k8s.io",
+		"version": "v1beta1",
+		"kind": "ValidatingWebhookConfiguration"
 	},
 	{
-		"api": "apiextensions.k8s.io.v1beta1.CustomResourceDefinition",
+		"description": "The **apiextensions.k8s.io/v1beta1** API version of CustomResourceDefinition is no longer served as of v1.22.",
 		"deprecated-version": "",
-		"removed-version": "v1.22"
+		"removed-version": "v1.22",
+		"group": "apiextensions.k8s.io",
+		"version": "v1beta1",
+		"kind": "CustomResourceDefinition"
 	},
 	{
-		"api": "apiregistration.k8s.io.v1beta1.APIService",
+		"description": "The **apiregistration.k8s.io/v1beta1** API version of APIService is no longer served as of v1.22.",
 		"deprecated-version": "",
-		"removed-version": "v1.22"
+		"removed-version": "v1.22",
+		"group": "apiregistration.k8s.io",
+		"version": "v1beta1",
+		"kind": "APIService"
 	},
 	{
-		"api": "authentication.k8s.io.v1beta1.TokenReview",
+		"description": "The **authentication.k8s.io/v1beta1** API version of TokenReview is no longer served as of v1.22.",
 		"deprecated-version": "",
-		"removed-version": "v1.22"
+		"removed-version": "v1.22",
+		"group": "authentication.k8s.io",
+		"version": "v1beta1",
+		"kind": "TokenReview"
 	},
 	{
-		"api": "authorization.k8s.io.v1beta1.LocalSubjectAccessReview",
+		"description": "The **authorization.k8s.io/v1beta1** API version of LocalSubjectAccessReview, SelfSubjectAccessReview, SubjectAccessReview, and SelfSubjectRulesReview is no longer served as of v1.22.",
 		"deprecated-version": "",
-		"removed-version": "v1.22"
+		"removed-version": "v1.22",
+		"group": "authorization.k8s.io",
+		"version": "v1beta1",
+		"kind": "LocalSubjectAccessReview"
 	},
 	{
-		"api": "authorization.k8s.io.v1beta1.SelfSubjectAccessReview",
+		"description": "The **authorization.k8s.io/v1beta1** API version of LocalSubjectAccessReview, SelfSubjectAccessReview, SubjectAccessReview, and SelfSubjectRulesReview is no longer served as of v1.22.",
 		"deprecated-version": "",
-		"removed-version": "v1.22"
+		"removed-version": "v1.22",
+		"group": "authorization.k8s.io",
+		"version": "v1beta1",
+		"kind": "SelfSubjectAccessReview"
 	},
 	{
-		"api": "authorization.k8s.io.v1beta1.SubjectAccessReview",
+		"description": "The **authorization.k8s.io/v1beta1** API version of LocalSubjectAccessReview, SelfSubjectAccessReview, SubjectAccessReview, and SelfSubjectRulesReview is no longer served as of v1.22.",
 		"deprecated-version": "",
-		"removed-version": "v1.22"
+		"removed-version": "v1.22",
+		"group": "authorization.k8s.io",
+		"version": "v1beta1",
+		"kind": "SubjectAccessReview"
 	},
 	{
-		"api": "authorization.k8s.io.v1beta1.SelfSubjectRulesReview",
+		"description": "The **authorization.k8s.io/v1beta1** API version of LocalSubjectAccessReview, SelfSubjectAccessReview, SubjectAccessReview, and SelfSubjectRulesReview is no longer served as of v1.22.",
 		"deprecated-version": "",
-		"removed-version": "v1.22"
+		"removed-version": "v1.22",
+		"group": "authorization.k8s.io",
+		"version": "v1beta1",
+		"kind": "SelfSubjectRulesReview"
 	},
 	{
-		"api": "certificates.k8s.io.v1beta1.CertificateSigningRequest",
+		"description": "The **certificates.k8s.io/v1beta1** API version of CertificateSigningRequest is no longer served as of v1.22.",
 		"deprecated-version": "",
-		"removed-version": "v1.22"
+		"removed-version": "v1.22",
+		"group": "certificates.k8s.io",
+		"version": "v1beta1",
+		"kind": "CertificateSigningRequest"
 	},
 	{
-		"api": "coordination.k8s.io.v1beta1.Lease",
+		"description": "The **coordination.k8s.io/v1beta1** API version of Lease is no longer served as of v1.22.",
 		"deprecated-version": "",
-		"removed-version": "v1.22"
+		"removed-version": "v1.22",
+		"group": "coordination.k8s.io",
+		"version": "v1beta1",
+		"kind": "Lease"
 	},
 	{
-		"api": "extensions.v1beta1.Ingress",
+		"description": "The **extensions/v1beta1** and **networking.k8s.io/v1beta1** API versions of Ingress is no longer served as of v1.22.",
 		"deprecated-version": "",
-		"removed-version": "v1.22"
+		"removed-version": "v1.22",
+		"group": "extensions",
+		"version": "v1beta1",
+		"kind": "Ingress"
 	},
 	{
-		"api": "networking.k8s.io.v1beta1.Ingress",
+		"description": "The **extensions/v1beta1** and **networking.k8s.io/v1beta1** API versions of Ingress is no longer served as of v1.22.",
 		"deprecated-version": "",
-		"removed-version": "v1.22"
+		"removed-version": "v1.22",
+		"group": "networking.k8s.io",
+		"version": "v1beta1",
+		"kind": "Ingress"
 	},
 	{
-		"api": "networking.k8s.io.v1beta1.IngressClass",
+		"description": "The **networking.k8s.io/v1beta1** API version of IngressClass is no longer served as of v1.22.",
 		"deprecated-version": "",
-		"removed-version": "v1.22"
+		"removed-version": "v1.22",
+		"group": "networking.k8s.io",
+		"version": "v1beta1",
+		"kind": "IngressClass"
 	},
 	{
-		"api": "rbac.authorization.k8s.io.v1beta1.ClusterRole",
+		"description": "The **rbac.authorization.k8s.io/v1beta1** API version of ClusterRole, ClusterRoleBinding, Role, and RoleBinding is no longer served as of v1.22.",
 		"deprecated-version": "",
-		"removed-version": "v1.22"
+		"removed-version": "v1.22",
+		"group": "rbac.authorization.k8s.io",
+		"version": "v1beta1",
+		"kind": "ClusterRole"
 	},
 	{
-		"api": "rbac.authorization.k8s.io.v1beta1.ClusterRoleBinding",
+		"description": "The **rbac.authorization.k8s.io/v1beta1** API version of ClusterRole, ClusterRoleBinding, Role, and RoleBinding is no longer served as of v1.22.",
 		"deprecated-version": "",
-		"removed-version": "v1.22"
+		"removed-version": "v1.22",
+		"group": "rbac.authorization.k8s.io",
+		"version": "v1beta1",
+		"kind": "ClusterRoleBinding"
 	},
 	{
-		"api": "rbac.authorization.k8s.io.v1beta1.Role",
+		"description": "The **rbac.authorization.k8s.io/v1beta1** API version of ClusterRole, ClusterRoleBinding, Role, and RoleBinding is no longer served as of v1.22.",
 		"deprecated-version": "",
-		"removed-version": "v1.22"
+		"removed-version": "v1.22",
+		"group": "rbac.authorization.k8s.io",
+		"version": "v1beta1",
+		"kind": "Role"
 	},
 	{
-		"api": "rbac.authorization.k8s.io.v1beta1.RoleBinding",
+		"description": "The **rbac.authorization.k8s.io/v1beta1** API version of ClusterRole, ClusterRoleBinding, Role, and RoleBinding is no longer served as of v1.22.",
 		"deprecated-version": "",
-		"removed-version": "v1.22"
+		"removed-version": "v1.22",
+		"group": "rbac.authorization.k8s.io",
+		"version": "v1beta1",
+		"kind": "RoleBinding"
 	},
 	{
-		"api": "scheduling.k8s.io.v1beta1.PriorityClass",
+		"description": "The **scheduling.k8s.io/v1beta1** API version of PriorityClass is no longer served as of v1.22.",
 		"deprecated-version": "",
-		"removed-version": "v1.22"
+		"removed-version": "v1.22",
+		"group": "scheduling.k8s.io",
+		"version": "v1beta1",
+		"kind": "PriorityClass"
 	},
 	{
-		"api": "storage.k8s.io.v1beta1.CSIDriver",
+		"description": "The **storage.k8s.io/v1beta1** API version of CSIDriver, CSINode, StorageClass, and VolumeAttachment is no longer served as of v1.22.",
 		"deprecated-version": "",
-		"removed-version": "v1.22"
+		"removed-version": "v1.22",
+		"group": "storage.k8s.io",
+		"version": "v1beta1",
+		"kind": "CSIDriver"
 	},
 	{
-		"api": "storage.k8s.io.v1beta1.CSINode",
+		"description": "The **storage.k8s.io/v1beta1** API version of CSIDriver, CSINode, StorageClass, and VolumeAttachment is no longer served as of v1.22.",
 		"deprecated-version": "",
-		"removed-version": "v1.22"
+		"removed-version": "v1.22",
+		"group": "storage.k8s.io",
+		"version": "v1beta1",
+		"kind": "CSINode"
 	},
 	{
-		"api": "storage.k8s.io.v1beta1.StorageClass",
+		"description": "The **storage.k8s.io/v1beta1** API version of CSIDriver, CSINode, StorageClass, and VolumeAttachment is no longer served as of v1.22.",
 		"deprecated-version": "",
-		"removed-version": "v1.22"
+		"removed-version": "v1.22",
+		"group": "storage.k8s.io",
+		"version": "v1beta1",
+		"kind": "StorageClass"
 	},
 	{
-		"api": "storage.k8s.io.v1beta1.VolumeAttachment",
+		"description": "The **storage.k8s.io/v1beta1** API version of CSIDriver, CSINode, StorageClass, and VolumeAttachment is no longer served as of v1.22.",
 		"deprecated-version": "",
-		"removed-version": "v1.22"
+		"removed-version": "v1.22",
+		"group": "storage.k8s.io",
+		"version": "v1beta1",
+		"kind": "VolumeAttachment"
 	},
 	{
-		"api": "extensions.v1beta1.NetworkPolicy",
+		"description": "The **extensions/v1beta1** API version of NetworkPolicy is no longer served as of v1.16.",
 		"deprecated-version": "",
-		"removed-version": "v1.16"
+		"removed-version": "v1.16",
+		"group": "extensions",
+		"version": "v1beta1",
+		"kind": "NetworkPolicy"
 	},
 	{
-		"api": "extensions.v1beta1.PodSecurityPolicy",
+		"description": "The **extensions/v1beta1** API version of PodSecurityPolicy is no longer served as of v1.16.",
 		"deprecated-version": "",
-		"removed-version": "v1.16"
+		"removed-version": "v1.16",
+		"group": "extensions",
+		"version": "v1beta1",
+		"kind": "PodSecurityPolicy"
 	},
 	{
-		"api": "admissionregistration.k8s.io.v1beta1.ValidatingWebhookConfiguration",
+		"description": "RoleList is a collection of Roles Deprecated in v1.17 in favor of rbac.authorization.k8s.io/v1 RoleList, and will no longer be served in v1.22.",
+		"deprecated-version": "v1.17",
+		"removed-version": "v1.22",
+		"group": "rbac.authorization.k8s.io",
+		"version": "v1beta1",
+		"kind": "RoleList"
+	},
+	{
+		"description": "RoleBinding references a role, but does not contain it.  It can reference a Role in the same namespace or a ClusterRole in the global namespace. It adds who information via Subjects and namespace information by which namespace it exists in.  RoleBindings in a given namespace only have effect in that namespace. Deprecated in v1.17 in favor of rbac.authorization.k8s.io/v1 RoleBinding, and will no longer be served in v1.22.",
+		"deprecated-version": "v1.17",
+		"removed-version": "v1.22",
+		"group": "rbac.authorization.k8s.io",
+		"version": "v1alpha1",
+		"kind": "RoleBinding"
+	},
+	{
+		"description": "ClusterRoleBinding references a ClusterRole, but not contain it.  It can reference a ClusterRole in the global namespace, and adds who information via Subject. Deprecated in v1.17 in favor of rbac.authorization.k8s.io/v1 ClusterRoleBinding, and will no longer be served in v1.22.",
+		"deprecated-version": "v1.17",
+		"removed-version": "v1.22",
+		"group": "rbac.authorization.k8s.io",
+		"version": "v1alpha1",
+		"kind": "ClusterRoleBinding"
+	},
+	{
+		"description": "ClusterRoleList is a collection of ClusterRoles. Deprecated in v1.17 in favor of rbac.authorization.k8s.io/v1 ClusterRoles, and will no longer be served in v1.22.",
+		"deprecated-version": "v1.17",
+		"removed-version": "v1.22",
+		"group": "rbac.authorization.k8s.io",
+		"version": "v1beta1",
+		"kind": "ClusterRoleList"
+	},
+	{
+		"description": "ClusterRoleBindingList is a collection of ClusterRoleBindings. Deprecated in v1.17 in favor of rbac.authorization.k8s.io/v1 ClusterRoleBindings, and will no longer be served in v1.22.",
+		"deprecated-version": "v1.17",
+		"removed-version": "v1.22",
+		"group": "rbac.authorization.k8s.io",
+		"version": "v1alpha1",
+		"kind": "ClusterRoleBindingList"
+	},
+	{
+		"description": "ClusterRoleBinding references a ClusterRole, but not contain it.  It can reference a ClusterRole in the global namespace, and adds who information via Subject. Deprecated in v1.17 in favor of rbac.authorization.k8s.io/v1 ClusterRoleBinding, and will no longer be served in v1.22.",
+		"deprecated-version": "v1.17",
+		"removed-version": "v1.22",
+		"group": "rbac.authorization.k8s.io",
+		"version": "v1beta1",
+		"kind": "ClusterRoleBinding"
+	},
+	{
+		"description": "RoleList is a collection of Roles. Deprecated in v1.17 in favor of rbac.authorization.k8s.io/v1 RoleList, and will no longer be served in v1.22.",
+		"deprecated-version": "v1.17",
+		"removed-version": "v1.22",
+		"group": "rbac.authorization.k8s.io",
+		"version": "v1alpha1",
+		"kind": "RoleList"
+	},
+	{
+		"description": "ClusterRole is a cluster level, logical grouping of PolicyRules that can be referenced as a unit by a RoleBinding or ClusterRoleBinding. Deprecated in v1.17 in favor of rbac.authorization.k8s.io/v1 ClusterRole, and will no longer be served in v1.22.",
+		"deprecated-version": "v1.17",
+		"removed-version": "v1.22",
+		"group": "rbac.authorization.k8s.io",
+		"version": "v1beta1",
+		"kind": "ClusterRole"
+	},
+	{
+		"description": "Role is a namespaced, logical grouping of PolicyRules that can be referenced as a unit by a RoleBinding. Deprecated in v1.17 in favor of rbac.authorization.k8s.io/v1 Role, and will no longer be served in v1.22.",
+		"deprecated-version": "v1.17",
+		"removed-version": "v1.22",
+		"group": "rbac.authorization.k8s.io",
+		"version": "v1beta1",
+		"kind": "Role"
+	},
+	{
+		"description": "CustomResourceDefinition represents a resource that should be exposed on the API server.  Its name MUST be in the format \u003c.spec.name\u003e.\u003c.spec.group\u003e. Deprecated in v1.16, planned for removal in v1.22. Use apiextensions.k8s.io/v1 CustomResourceDefinition instead.",
 		"deprecated-version": "v1.16",
-		"removed-version": "v1.19"
+		"removed-version": "v1.22",
+		"group": "apiextensions.k8s.io",
+		"version": "v1beta1",
+		"kind": "CustomResourceDefinition"
 	},
 	{
-		"api": "rbac.authorization.k8s.io.v1alpha1.ClusterRoleBinding",
+		"description": "RoleBindingList is a collection of RoleBindings Deprecated in v1.17 in favor of rbac.authorization.k8s.io/v1 RoleBindingList, and will no longer be served in v1.22.",
 		"deprecated-version": "v1.17",
-		"removed-version": "v1.22"
+		"removed-version": "v1.22",
+		"group": "rbac.authorization.k8s.io",
+		"version": "v1alpha1",
+		"kind": "RoleBindingList"
 	},
 	{
-		"api": "rbac.authorization.k8s.io.v1beta1.ClusterRole",
+		"description": "RoleBinding references a role, but does not contain it.  It can reference a Role in the same namespace or a ClusterRole in the global namespace. It adds who information via Subjects and namespace information by which namespace it exists in.  RoleBindings in a given namespace only have effect in that namespace. Deprecated in v1.17 in favor of rbac.authorization.k8s.io/v1 RoleBinding, and will no longer be served in v1.22.",
 		"deprecated-version": "v1.17",
-		"removed-version": "v1.22"
+		"removed-version": "v1.22",
+		"group": "rbac.authorization.k8s.io",
+		"version": "v1beta1",
+		"kind": "RoleBinding"
 	},
 	{
-		"api": "admissionregistration.k8s.io.v1beta1.MutatingWebhookConfiguration",
+		"description": "MutatingWebhookConfiguration describes the configuration of and admission webhook that accept or reject and may change the object. Deprecated in v1.16, planned for removal in v1.19. Use admissionregistration.k8s.io/v1 MutatingWebhookConfiguration instead.",
 		"deprecated-version": "v1.16",
-		"removed-version": "v1.19"
+		"removed-version": "v1.19",
+		"group": "admissionregistration.k8s.io",
+		"version": "v1beta1",
+		"kind": "MutatingWebhookConfiguration"
 	},
 	{
-		"api": "rbac.authorization.k8s.io.v1alpha1.RoleBindingList",
+		"description": "ClusterRole is a cluster level, logical grouping of PolicyRules that can be referenced as a unit by a RoleBinding or ClusterRoleBinding. Deprecated in v1.17 in favor of rbac.authorization.k8s.io/v1 ClusterRole, and will no longer be served in v1.22.",
 		"deprecated-version": "v1.17",
-		"removed-version": "v1.22"
+		"removed-version": "v1.22",
+		"group": "rbac.authorization.k8s.io",
+		"version": "v1alpha1",
+		"kind": "ClusterRole"
 	},
 	{
-		"api": "policy.v1beta1.PodSecurityPolicy",
+		"description": "PodSecurityPolicy governs the ability to make requests that affect the Security Context that will be applied to a pod and container. Deprecated in 1.21.",
 		"deprecated-version": "1.21",
-		"removed-version": "v1.25"
+		"removed-version": "v1.25",
+		"group": "policy",
+		"version": "v1beta1",
+		"kind": "PodSecurityPolicy"
 	},
 	{
-		"api": "rbac.authorization.k8s.io.v1beta1.Role",
-		"deprecated-version": "v1.17",
-		"removed-version": "v1.22"
-	},
-	{
-		"api": "apiextensions.k8s.io.v1beta1.CustomResourceDefinition",
+		"description": "ValidatingWebhookConfiguration describes the configuration of and admission webhook that accept or reject and object without changing it. Deprecated in v1.16, planned for removal in v1.19. Use admissionregistration.k8s.io/v1 ValidatingWebhookConfiguration instead.",
 		"deprecated-version": "v1.16",
-		"removed-version": "v1.22"
+		"removed-version": "v1.19",
+		"group": "admissionregistration.k8s.io",
+		"version": "v1beta1",
+		"kind": "ValidatingWebhookConfiguration"
 	},
 	{
-		"api": "rbac.authorization.k8s.io.v1alpha1.RoleList",
+		"description": "ClusterRoleList is a collection of ClusterRoles. Deprecated in v1.17 in favor of rbac.authorization.k8s.io/v1 ClusterRoles, and will no longer be served in v1.22.",
 		"deprecated-version": "v1.17",
-		"removed-version": "v1.22"
+		"removed-version": "v1.22",
+		"group": "rbac.authorization.k8s.io",
+		"version": "v1alpha1",
+		"kind": "ClusterRoleList"
 	},
 	{
-		"api": "rbac.authorization.k8s.io.v1beta1.ClusterRoleBindingList",
+		"description": "ClusterRoleBindingList is a collection of ClusterRoleBindings. Deprecated in v1.17 in favor of rbac.authorization.k8s.io/v1 ClusterRoleBindingList, and will no longer be served in v1.22.",
 		"deprecated-version": "v1.17",
-		"removed-version": "v1.22"
+		"removed-version": "v1.22",
+		"group": "rbac.authorization.k8s.io",
+		"version": "v1beta1",
+		"kind": "ClusterRoleBindingList"
 	},
 	{
-		"api": "rbac.authorization.k8s.io.v1alpha1.RoleBinding",
+		"description": "Role is a namespaced, logical grouping of PolicyRules that can be referenced as a unit by a RoleBinding. Deprecated in v1.17 in favor of rbac.authorization.k8s.io/v1 Role, and will no longer be served in v1.22.",
 		"deprecated-version": "v1.17",
-		"removed-version": "v1.22"
+		"removed-version": "v1.22",
+		"group": "rbac.authorization.k8s.io",
+		"version": "v1alpha1",
+		"kind": "Role"
 	},
 	{
-		"api": "rbac.authorization.k8s.io.v1alpha1.ClusterRoleBindingList",
+		"description": "RoleBindingList is a collection of RoleBindings Deprecated in v1.17 in favor of rbac.authorization.k8s.io/v1 RoleBindingList, and will no longer be served in v1.22.",
 		"deprecated-version": "v1.17",
-		"removed-version": "v1.22"
-	},
-	{
-		"api": "rbac.authorization.k8s.io.v1beta1.RoleBinding",
-		"deprecated-version": "v1.17",
-		"removed-version": "v1.22"
-	},
-	{
-		"api": "rbac.authorization.k8s.io.v1beta1.RoleList",
-		"deprecated-version": "v1.17",
-		"removed-version": "v1.22"
-	},
-	{
-		"api": "rbac.authorization.k8s.io.v1alpha1.ClusterRole",
-		"deprecated-version": "v1.17",
-		"removed-version": "v1.22"
-	},
-	{
-		"api": "rbac.authorization.k8s.io.v1beta1.ClusterRoleBinding",
-		"deprecated-version": "v1.17",
-		"removed-version": "v1.22"
-	},
-	{
-		"api": "rbac.authorization.k8s.io.v1beta1.RoleBindingList",
-		"deprecated-version": "v1.17",
-		"removed-version": "v1.22"
-	},
-	{
-		"api": "rbac.authorization.k8s.io.v1alpha1.ClusterRoleList",
-		"deprecated-version": "v1.17",
-		"removed-version": "v1.22"
-	},
-	{
-		"api": "rbac.authorization.k8s.io.v1beta1.ClusterRoleList",
-		"deprecated-version": "v1.17",
-		"removed-version": "v1.22"
-	},
-	{
-		"api": "rbac.authorization.k8s.io.v1alpha1.Role",
-		"deprecated-version": "v1.17",
-		"removed-version": "v1.22"
+		"removed-version": "v1.22",
+		"group": "rbac.authorization.k8s.io",
+		"version": "v1beta1",
+		"kind": "RoleBindingList"
 	}
 ]
