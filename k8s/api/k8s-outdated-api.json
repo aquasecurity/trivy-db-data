@@ -280,20 +280,36 @@
 		"kind": "PodSecurityPolicy"
 	},
 	{
-		"description": "RoleBinding references a role, but does not contain it.  It can reference a Role in the same namespace or a ClusterRole in the global namespace. It adds who information via Subjects and namespace information by which namespace it exists in.  RoleBindings in a given namespace only have effect in that namespace. Deprecated in v1.17 in favor of rbac.authorization.k8s.io/v1 RoleBinding, and will no longer be served in v1.22.",
+		"description": "ClusterRole is a cluster level, logical grouping of PolicyRules that can be referenced as a unit by a RoleBinding or ClusterRoleBinding. Deprecated in v1.17 in favor of rbac.authorization.k8s.io/v1 ClusterRole, and will no longer be served in v1.22.",
 		"deprecated-version": "v1.17",
 		"removed-version": "v1.22",
 		"group": "rbac.authorization.k8s.io",
 		"version": "v1beta1",
-		"kind": "RoleBinding"
+		"kind": "ClusterRole"
 	},
 	{
-		"description": "RoleBindingList is a collection of RoleBindings Deprecated in v1.17 in favor of rbac.authorization.k8s.io/v1 RoleBindingList, and will no longer be served in v1.22.",
+		"description": "ClusterRoleBindingList is a collection of ClusterRoleBindings. Deprecated in v1.17 in favor of rbac.authorization.k8s.io/v1 ClusterRoleBindingList, and will no longer be served in v1.22.",
+		"deprecated-version": "v1.17",
+		"removed-version": "v1.22",
+		"group": "rbac.authorization.k8s.io",
+		"version": "v1beta1",
+		"kind": "ClusterRoleBindingList"
+	},
+	{
+		"description": "CustomResourceDefinition represents a resource that should be exposed on the API server.  Its name MUST be in the format \u003c.spec.name\u003e.\u003c.spec.group\u003e. Deprecated in v1.16, planned for removal in v1.22. Use apiextensions.k8s.io/v1 CustomResourceDefinition instead.",
+		"deprecated-version": "v1.16",
+		"removed-version": "v1.22",
+		"group": "apiextensions.k8s.io",
+		"version": "v1beta1",
+		"kind": "CustomResourceDefinition"
+	},
+	{
+		"description": "Role is a namespaced, logical grouping of PolicyRules that can be referenced as a unit by a RoleBinding. Deprecated in v1.17 in favor of rbac.authorization.k8s.io/v1 Role, and will no longer be served in v1.22.",
 		"deprecated-version": "v1.17",
 		"removed-version": "v1.22",
 		"group": "rbac.authorization.k8s.io",
 		"version": "v1alpha1",
-		"kind": "RoleBindingList"
+		"kind": "Role"
 	},
 	{
 		"description": "MutatingWebhookConfiguration describes the configuration of and admission webhook that accept or reject and may change the object. Deprecated in v1.16, planned for removal in v1.19. Use admissionregistration.k8s.io/v1 MutatingWebhookConfiguration instead.",
@@ -302,30 +318,6 @@
 		"group": "admissionregistration.k8s.io",
 		"version": "v1beta1",
 		"kind": "MutatingWebhookConfiguration"
-	},
-	{
-		"description": "ClusterRoleBindingList is a collection of ClusterRoleBindings. Deprecated in v1.17 in favor of rbac.authorization.k8s.io/v1 ClusterRoleBindings, and will no longer be served in v1.22.",
-		"deprecated-version": "v1.17",
-		"removed-version": "v1.22",
-		"group": "rbac.authorization.k8s.io",
-		"version": "v1alpha1",
-		"kind": "ClusterRoleBindingList"
-	},
-	{
-		"description": "ClusterRoleBinding references a ClusterRole, but not contain it.  It can reference a ClusterRole in the global namespace, and adds who information via Subject. Deprecated in v1.17 in favor of rbac.authorization.k8s.io/v1 ClusterRoleBinding, and will no longer be served in v1.22.",
-		"deprecated-version": "v1.17",
-		"removed-version": "v1.22",
-		"group": "rbac.authorization.k8s.io",
-		"version": "v1alpha1",
-		"kind": "ClusterRoleBinding"
-	},
-	{
-		"description": "ClusterRole is a cluster level, logical grouping of PolicyRules that can be referenced as a unit by a RoleBinding or ClusterRoleBinding. Deprecated in v1.17 in favor of rbac.authorization.k8s.io/v1 ClusterRole, and will no longer be served in v1.22.",
-		"deprecated-version": "v1.17",
-		"removed-version": "v1.22",
-		"group": "rbac.authorization.k8s.io",
-		"version": "v1alpha1",
-		"kind": "ClusterRole"
 	},
 	{
 		"description": "RoleList is a collection of Roles. Deprecated in v1.17 in favor of rbac.authorization.k8s.io/v1 RoleList, and will no longer be served in v1.22.",
@@ -344,27 +336,75 @@
 		"kind": "ValidatingWebhookConfiguration"
 	},
 	{
-		"description": "CustomResourceDefinition represents a resource that should be exposed on the API server.  Its name MUST be in the format \u003c.spec.name\u003e.\u003c.spec.group\u003e. Deprecated in v1.16, planned for removal in v1.22. Use apiextensions.k8s.io/v1 CustomResourceDefinition instead.",
-		"deprecated-version": "v1.16",
+		"description": "ClusterRoleList is a collection of ClusterRoles. Deprecated in v1.17 in favor of rbac.authorization.k8s.io/v1 ClusterRoles, and will no longer be served in v1.22.",
+		"deprecated-version": "v1.17",
 		"removed-version": "v1.22",
-		"group": "apiextensions.k8s.io",
+		"group": "rbac.authorization.k8s.io",
 		"version": "v1beta1",
-		"kind": "CustomResourceDefinition"
+		"kind": "ClusterRoleList"
+	},
+	{
+		"description": "RoleBindingList is a collection of RoleBindings Deprecated in v1.17 in favor of rbac.authorization.k8s.io/v1 RoleBindingList, and will no longer be served in v1.22.",
+		"deprecated-version": "v1.17",
+		"removed-version": "v1.22",
+		"group": "rbac.authorization.k8s.io",
+		"version": "v1beta1",
+		"kind": "RoleBindingList"
+	},
+	{
+		"description": "RoleBindingList is a collection of RoleBindings Deprecated in v1.17 in favor of rbac.authorization.k8s.io/v1 RoleBindingList, and will no longer be served in v1.22.",
+		"deprecated-version": "v1.17",
+		"removed-version": "v1.22",
+		"group": "rbac.authorization.k8s.io",
+		"version": "v1alpha1",
+		"kind": "RoleBindingList"
+	},
+	{
+		"description": "Role is a namespaced, logical grouping of PolicyRules that can be referenced as a unit by a RoleBinding. Deprecated in v1.17 in favor of rbac.authorization.k8s.io/v1 Role, and will no longer be served in v1.22.",
+		"deprecated-version": "v1.17",
+		"removed-version": "v1.22",
+		"group": "rbac.authorization.k8s.io",
+		"version": "v1beta1",
+		"kind": "Role"
 	},
 	{
 		"description": "ClusterRole is a cluster level, logical grouping of PolicyRules that can be referenced as a unit by a RoleBinding or ClusterRoleBinding. Deprecated in v1.17 in favor of rbac.authorization.k8s.io/v1 ClusterRole, and will no longer be served in v1.22.",
 		"deprecated-version": "v1.17",
 		"removed-version": "v1.22",
 		"group": "rbac.authorization.k8s.io",
-		"version": "v1beta1",
+		"version": "v1alpha1",
 		"kind": "ClusterRole"
 	},
 	{
-		"description": "ClusterRoleBindingList is a collection of ClusterRoleBindings. Deprecated in v1.17 in favor of rbac.authorization.k8s.io/v1 ClusterRoleBindingList, and will no longer be served in v1.22.",
+		"description": "ClusterRoleBinding references a ClusterRole, but not contain it.  It can reference a ClusterRole in the global namespace, and adds who information via Subject. Deprecated in v1.17 in favor of rbac.authorization.k8s.io/v1 ClusterRoleBinding, and will no longer be served in v1.22.",
+		"deprecated-version": "v1.17",
+		"removed-version": "v1.22",
+		"group": "rbac.authorization.k8s.io",
+		"version": "v1alpha1",
+		"kind": "ClusterRoleBinding"
+	},
+	{
+		"description": "RoleList is a collection of Roles Deprecated in v1.17 in favor of rbac.authorization.k8s.io/v1 RoleList, and will no longer be served in v1.22.",
 		"deprecated-version": "v1.17",
 		"removed-version": "v1.22",
 		"group": "rbac.authorization.k8s.io",
 		"version": "v1beta1",
+		"kind": "RoleList"
+	},
+	{
+		"description": "ClusterRoleBinding references a ClusterRole, but not contain it.  It can reference a ClusterRole in the global namespace, and adds who information via Subject. Deprecated in v1.17 in favor of rbac.authorization.k8s.io/v1 ClusterRoleBinding, and will no longer be served in v1.22.",
+		"deprecated-version": "v1.17",
+		"removed-version": "v1.22",
+		"group": "rbac.authorization.k8s.io",
+		"version": "v1beta1",
+		"kind": "ClusterRoleBinding"
+	},
+	{
+		"description": "ClusterRoleBindingList is a collection of ClusterRoleBindings. Deprecated in v1.17 in favor of rbac.authorization.k8s.io/v1 ClusterRoleBindings, and will no longer be served in v1.22.",
+		"deprecated-version": "v1.17",
+		"removed-version": "v1.22",
+		"group": "rbac.authorization.k8s.io",
+		"version": "v1alpha1",
 		"kind": "ClusterRoleBindingList"
 	},
 	{
@@ -376,6 +416,14 @@
 		"kind": "RoleBinding"
 	},
 	{
+		"description": "ClusterRoleList is a collection of ClusterRoles. Deprecated in v1.17 in favor of rbac.authorization.k8s.io/v1 ClusterRoles, and will no longer be served in v1.22.",
+		"deprecated-version": "v1.17",
+		"removed-version": "v1.22",
+		"group": "rbac.authorization.k8s.io",
+		"version": "v1alpha1",
+		"kind": "ClusterRoleList"
+	},
+	{
 		"description": "PodSecurityPolicy governs the ability to make requests that affect the Security Context that will be applied to a pod and container. Deprecated in 1.21.",
 		"deprecated-version": "1.21",
 		"removed-version": "v1.25",
@@ -384,59 +432,11 @@
 		"kind": "PodSecurityPolicy"
 	},
 	{
-		"description": "RoleList is a collection of Roles Deprecated in v1.17 in favor of rbac.authorization.k8s.io/v1 RoleList, and will no longer be served in v1.22.",
+		"description": "RoleBinding references a role, but does not contain it.  It can reference a Role in the same namespace or a ClusterRole in the global namespace. It adds who information via Subjects and namespace information by which namespace it exists in.  RoleBindings in a given namespace only have effect in that namespace. Deprecated in v1.17 in favor of rbac.authorization.k8s.io/v1 RoleBinding, and will no longer be served in v1.22.",
 		"deprecated-version": "v1.17",
 		"removed-version": "v1.22",
 		"group": "rbac.authorization.k8s.io",
 		"version": "v1beta1",
-		"kind": "RoleList"
-	},
-	{
-		"description": "RoleBindingList is a collection of RoleBindings Deprecated in v1.17 in favor of rbac.authorization.k8s.io/v1 RoleBindingList, and will no longer be served in v1.22.",
-		"deprecated-version": "v1.17",
-		"removed-version": "v1.22",
-		"group": "rbac.authorization.k8s.io",
-		"version": "v1beta1",
-		"kind": "RoleBindingList"
-	},
-	{
-		"description": "ClusterRoleList is a collection of ClusterRoles. Deprecated in v1.17 in favor of rbac.authorization.k8s.io/v1 ClusterRoles, and will no longer be served in v1.22.",
-		"deprecated-version": "v1.17",
-		"removed-version": "v1.22",
-		"group": "rbac.authorization.k8s.io",
-		"version": "v1beta1",
-		"kind": "ClusterRoleList"
-	},
-	{
-		"description": "Role is a namespaced, logical grouping of PolicyRules that can be referenced as a unit by a RoleBinding. Deprecated in v1.17 in favor of rbac.authorization.k8s.io/v1 Role, and will no longer be served in v1.22.",
-		"deprecated-version": "v1.17",
-		"removed-version": "v1.22",
-		"group": "rbac.authorization.k8s.io",
-		"version": "v1alpha1",
-		"kind": "Role"
-	},
-	{
-		"description": "ClusterRoleList is a collection of ClusterRoles. Deprecated in v1.17 in favor of rbac.authorization.k8s.io/v1 ClusterRoles, and will no longer be served in v1.22.",
-		"deprecated-version": "v1.17",
-		"removed-version": "v1.22",
-		"group": "rbac.authorization.k8s.io",
-		"version": "v1alpha1",
-		"kind": "ClusterRoleList"
-	},
-	{
-		"description": "Role is a namespaced, logical grouping of PolicyRules that can be referenced as a unit by a RoleBinding. Deprecated in v1.17 in favor of rbac.authorization.k8s.io/v1 Role, and will no longer be served in v1.22.",
-		"deprecated-version": "v1.17",
-		"removed-version": "v1.22",
-		"group": "rbac.authorization.k8s.io",
-		"version": "v1beta1",
-		"kind": "Role"
-	},
-	{
-		"description": "ClusterRoleBinding references a ClusterRole, but not contain it.  It can reference a ClusterRole in the global namespace, and adds who information via Subject. Deprecated in v1.17 in favor of rbac.authorization.k8s.io/v1 ClusterRoleBinding, and will no longer be served in v1.22.",
-		"deprecated-version": "v1.17",
-		"removed-version": "v1.22",
-		"group": "rbac.authorization.k8s.io",
-		"version": "v1beta1",
-		"kind": "ClusterRoleBinding"
+		"kind": "RoleBinding"
 	}
 ]
