@@ -1,442 +1,1072 @@
 [
 	{
-		"description": "The **storage.k8s.io/v1beta1** API version of CSIStorageCapacity will no longer be served in v1.27.",
-		"deprecated-version": "",
+		"description": "",
+		"deprecated-version": "v1.9",
+		"replacement-version": "apps.v1.ReplicaSet",
+		"removed-version": "v1.16",
+		"group": "apps",
+		"version": "v1beta2",
+		"kind": "ReplicaSet",
+		"ref": "https://github.com/kubernetes/kubernetes/tree/master/staging/src/k8s.io/api/apps/v1beta2/zz_generated.prerelease-lifecycle.go"
+	},
+	{
+		"description": "",
+		"deprecated-version": "v1.16",
+		"replacement-version": "admissionregistration.k8s.io.v1.MutatingWebhookConfigurationList",
+		"removed-version": "v1.22",
+		"group": "admissionregistration",
+		"version": "v1beta1",
+		"kind": "MutatingWebhookConfigurationList",
+		"ref": "https://github.com/kubernetes/kubernetes/tree/master/staging/src/k8s.io/api/admissionregistration/v1beta1/zz_generated.prerelease-lifecycle.go"
+	},
+	{
+		"description": "",
+		"deprecated-version": "v1.19",
+		"replacement-version": "storage.k8s.io.v1.StorageClass",
+		"removed-version": "v1.22",
+		"group": "storage",
+		"version": "v1beta1",
+		"kind": "StorageClass",
+		"ref": "https://github.com/kubernetes/kubernetes/tree/master/staging/src/k8s.io/api/storage/v1beta1/zz_generated.prerelease-lifecycle.go"
+	},
+	{
+		"description": "",
+		"deprecated-version": "v1.8",
+		"replacement-version": "apps.v1.ControllerRevision",
+		"removed-version": "v1.16",
+		"group": "apps",
+		"version": "v1beta1",
+		"kind": "ControllerRevision",
+		"ref": "https://github.com/kubernetes/kubernetes/tree/master/staging/src/k8s.io/api/apps/v1beta1/zz_generated.prerelease-lifecycle.go"
+	},
+	{
+		"description": "",
+		"deprecated-version": "v1.17",
+		"replacement-version": "rbac.authorization.k8s.io.v1.ClusterRoleBinding",
+		"removed-version": "v1.22",
+		"group": "rbac",
+		"version": "v1beta1",
+		"kind": "ClusterRoleBinding",
+		"ref": "https://github.com/kubernetes/kubernetes/tree/master/staging/src/k8s.io/api/rbac/v1beta1/zz_generated.prerelease-lifecycle.go"
+	},
+	{
+		"description": "",
+		"deprecated-version": "v1.19",
+		"replacement-version": "admission.k8s.io.v1.AdmissionReview",
+		"removed-version": "v1.22",
+		"group": "admission",
+		"version": "v1beta1",
+		"kind": "AdmissionReview",
+		"ref": "https://github.com/kubernetes/kubernetes/tree/master/staging/src/k8s.io/api/admission/v1beta1/zz_generated.prerelease-lifecycle.go"
+	},
+	{
+		"description": "",
+		"deprecated-version": "v1.19",
+		"replacement-version": "authentication.k8s.io.v1.TokenReview",
+		"removed-version": "v1.22",
+		"group": "authentication",
+		"version": "v1beta1",
+		"kind": "TokenReview",
+		"ref": "https://github.com/kubernetes/kubernetes/tree/master/staging/src/k8s.io/api/authentication/v1beta1/zz_generated.prerelease-lifecycle.go"
+	},
+	{
+		"description": "",
+		"deprecated-version": "v1.8",
+		"replacement-version": "autoscaling.v1.Scale",
+		"removed-version": "v1.16",
+		"group": "apps",
+		"version": "v1beta1",
+		"kind": "Scale",
+		"ref": "https://github.com/kubernetes/kubernetes/tree/master/staging/src/k8s.io/api/apps/v1beta1/zz_generated.prerelease-lifecycle.go"
+	},
+	{
+		"description": "",
+		"deprecated-version": "v1.9",
+		"replacement-version": "apps.v1.ControllerRevision",
+		"removed-version": "v1.16",
+		"group": "apps",
+		"version": "v1beta2",
+		"kind": "ControllerRevision",
+		"ref": "https://github.com/kubernetes/kubernetes/tree/master/staging/src/k8s.io/api/apps/v1beta2/zz_generated.prerelease-lifecycle.go"
+	},
+	{
+		"description": "",
+		"deprecated-version": "v1.9",
+		"replacement-version": "autoscaling.v1.Scale",
+		"removed-version": "v1.16",
+		"group": "apps",
+		"version": "v1beta2",
+		"kind": "Scale",
+		"ref": "https://github.com/kubernetes/kubernetes/tree/master/staging/src/k8s.io/api/apps/v1beta2/zz_generated.prerelease-lifecycle.go"
+	},
+	{
+		"description": "",
+		"deprecated-version": "v1.20",
+		"replacement-version": "flowcontrol.apiserver.k8s.io.v1beta2.FlowSchema",
+		"removed-version": "v1.21",
+		"group": "flowcontrol",
+		"version": "v1alpha1",
+		"kind": "FlowSchema",
+		"ref": "https://github.com/kubernetes/kubernetes/tree/master/staging/src/k8s.io/api/flowcontrol/v1alpha1/zz_generated.prerelease-lifecycle.go"
+	},
+	{
+		"description": "",
+		"deprecated-version": "v1.16",
+		"replacement-version": "admissionregistration.k8s.io.v1.ValidatingWebhookConfigurationList",
+		"removed-version": "v1.22",
+		"group": "admissionregistration",
+		"version": "v1beta1",
+		"kind": "ValidatingWebhookConfigurationList",
+		"ref": "https://github.com/kubernetes/kubernetes/tree/master/staging/src/k8s.io/api/admissionregistration/v1beta1/zz_generated.prerelease-lifecycle.go"
+	},
+	{
+		"description": "",
+		"deprecated-version": "v1.8",
+		"replacement-version": "apps.v1.DaemonSetList",
+		"removed-version": "v1.16",
+		"group": "extensions",
+		"version": "v1beta1",
+		"kind": "DaemonSetList",
+		"ref": "https://github.com/kubernetes/kubernetes/tree/master/staging/src/k8s.io/api/extensions/v1beta1/zz_generated.prerelease-lifecycle.go"
+	},
+	{
+		"description": "",
+		"deprecated-version": "v1.24",
+		"replacement-version": "storage.k8s.io.v1.CSIStorageCapacity",
 		"removed-version": "v1.27",
-		"group": "storage.k8s.io",
+		"group": "storage",
 		"version": "v1beta1",
-		"kind": "CSIStorageCapacity"
+		"kind": "CSIStorageCapacity",
+		"ref": "https://github.com/kubernetes/kubernetes/tree/master/staging/src/k8s.io/api/storage/v1beta1/zz_generated.prerelease-lifecycle.go"
 	},
 	{
-		"description": "The **flowcontrol.apiserver.k8s.io/v1beta1** API version of FlowSchema and PriorityLevelConfiguration will no longer be served in v1.26.",
-		"deprecated-version": "",
-		"removed-version": "v1.26",
-		"group": "flowcontrol.apiserver.k8s.io",
+		"description": "",
+		"deprecated-version": "v1.19",
+		"replacement-version": "storage.k8s.io.v1.StorageClassList",
+		"removed-version": "v1.22",
+		"group": "storage",
 		"version": "v1beta1",
-		"kind": "FlowSchema"
+		"kind": "StorageClassList",
+		"ref": "https://github.com/kubernetes/kubernetes/tree/master/staging/src/k8s.io/api/storage/v1beta1/zz_generated.prerelease-lifecycle.go"
 	},
 	{
-		"description": "The **flowcontrol.apiserver.k8s.io/v1beta1** API version of FlowSchema and PriorityLevelConfiguration will no longer be served in v1.26.",
-		"deprecated-version": "",
-		"removed-version": "v1.26",
-		"group": "flowcontrol.apiserver.k8s.io",
-		"version": "v1beta1",
-		"kind": "PriorityLevelConfiguration"
+		"description": "",
+		"deprecated-version": "v1.26",
+		"replacement-version": "",
+		"removed-version": "v1.29",
+		"group": "flowcontrol",
+		"version": "v1beta2",
+		"kind": "FlowSchema",
+		"ref": "https://github.com/kubernetes/kubernetes/tree/master/staging/src/k8s.io/api/flowcontrol/v1beta2/zz_generated.prerelease-lifecycle.go"
 	},
 	{
-		"description": "The **autoscaling/v2beta2** API version of HorizontalPodAutoscaler will no longer be served in v1.26.",
-		"deprecated-version": "",
+		"description": "",
+		"deprecated-version": "v1.8",
+		"replacement-version": "apps.v1.StatefulSet",
+		"removed-version": "v1.16",
+		"group": "apps",
+		"version": "v1beta1",
+		"kind": "StatefulSet",
+		"ref": "https://github.com/kubernetes/kubernetes/tree/master/staging/src/k8s.io/api/apps/v1beta1/zz_generated.prerelease-lifecycle.go"
+	},
+	{
+		"description": "",
+		"deprecated-version": "v1.22",
+		"replacement-version": "",
+		"removed-version": "v1.25",
+		"group": "policy",
+		"version": "v1beta1",
+		"kind": "Eviction",
+		"ref": "https://github.com/kubernetes/kubernetes/tree/master/staging/src/k8s.io/api/policy/v1beta1/zz_generated.prerelease-lifecycle.go"
+	},
+	{
+		"description": "",
+		"deprecated-version": "v1.23",
+		"replacement-version": "flowcontrol.apiserver.k8s.io.v1beta2.FlowSchema",
 		"removed-version": "v1.26",
+		"group": "flowcontrol",
+		"version": "v1beta1",
+		"kind": "FlowSchema",
+		"ref": "https://github.com/kubernetes/kubernetes/tree/master/staging/src/k8s.io/api/flowcontrol/v1beta1/zz_generated.prerelease-lifecycle.go"
+	},
+	{
+		"description": "",
+		"deprecated-version": "v1.21",
+		"replacement-version": "",
+		"removed-version": "v1.25",
+		"group": "policy",
+		"version": "v1beta1",
+		"kind": "PodSecurityPolicyList",
+		"ref": "https://github.com/kubernetes/kubernetes/tree/master/staging/src/k8s.io/api/policy/v1beta1/zz_generated.prerelease-lifecycle.go"
+	},
+	{
+		"description": "",
+		"deprecated-version": "v1.23",
+		"replacement-version": "flowcontrol.apiserver.k8s.io.v1beta2.PriorityLevelConfigurationList",
+		"removed-version": "v1.26",
+		"group": "flowcontrol",
+		"version": "v1beta1",
+		"kind": "PriorityLevelConfigurationList",
+		"ref": "https://github.com/kubernetes/kubernetes/tree/master/staging/src/k8s.io/api/flowcontrol/v1beta1/zz_generated.prerelease-lifecycle.go"
+	},
+	{
+		"description": "",
+		"deprecated-version": "v1.23",
+		"replacement-version": "flowcontrol.apiserver.k8s.io.v1beta2.PriorityLevelConfiguration",
+		"removed-version": "v1.26",
+		"group": "flowcontrol",
+		"version": "v1beta1",
+		"kind": "PriorityLevelConfiguration",
+		"ref": "https://github.com/kubernetes/kubernetes/tree/master/staging/src/k8s.io/api/flowcontrol/v1beta1/zz_generated.prerelease-lifecycle.go"
+	},
+	{
+		"description": "",
+		"deprecated-version": "v1.19",
+		"replacement-version": "networking.k8s.io.v1.Ingress",
+		"removed-version": "v1.22",
+		"group": "networking",
+		"version": "v1beta1",
+		"kind": "Ingress",
+		"ref": "https://github.com/kubernetes/kubernetes/tree/master/staging/src/k8s.io/api/networking/v1beta1/zz_generated.prerelease-lifecycle.go"
+	},
+	{
+		"description": "",
+		"deprecated-version": "v1.21",
+		"replacement-version": "storage.k8s.io.v1beta1.CSIStorageCapacity",
+		"removed-version": "v1.24",
+		"group": "storage",
+		"version": "v1alpha1",
+		"kind": "CSIStorageCapacity",
+		"ref": "https://github.com/kubernetes/kubernetes/tree/master/staging/src/k8s.io/api/storage/v1alpha1/zz_generated.prerelease-lifecycle.go"
+	},
+	{
+		"description": "",
+		"deprecated-version": "v1.9",
+		"replacement-version": "apps.v1.DaemonSet",
+		"removed-version": "v1.16",
+		"group": "apps",
+		"version": "v1beta2",
+		"kind": "DaemonSet",
+		"ref": "https://github.com/kubernetes/kubernetes/tree/master/staging/src/k8s.io/api/apps/v1beta2/zz_generated.prerelease-lifecycle.go"
+	},
+	{
+		"description": "",
+		"deprecated-version": "v1.22",
+		"replacement-version": "",
+		"removed-version": "v1.25",
+		"group": "node",
+		"version": "v1beta1",
+		"kind": "RuntimeClassList",
+		"ref": "https://github.com/kubernetes/kubernetes/tree/master/staging/src/k8s.io/api/node/v1beta1/zz_generated.prerelease-lifecycle.go"
+	},
+	{
+		"description": "",
+		"deprecated-version": "v1.8",
+		"replacement-version": "apps.v1.DaemonSet",
+		"removed-version": "v1.16",
+		"group": "extensions",
+		"version": "v1beta1",
+		"kind": "DaemonSet",
+		"ref": "https://github.com/kubernetes/kubernetes/tree/master/staging/src/k8s.io/api/extensions/v1beta1/zz_generated.prerelease-lifecycle.go"
+	},
+	{
+		"description": "",
+		"deprecated-version": "v1.17",
+		"replacement-version": "storage.k8s.io.v1.CSINode",
+		"removed-version": "v1.22",
+		"group": "storage",
+		"version": "v1beta1",
+		"kind": "CSINode",
+		"ref": "https://github.com/kubernetes/kubernetes/tree/master/staging/src/k8s.io/api/storage/v1beta1/zz_generated.prerelease-lifecycle.go"
+	},
+	{
+		"description": "",
+		"deprecated-version": "v1.21",
+		"replacement-version": "storage.k8s.io.v1.VolumeAttachment",
+		"removed-version": "v1.24",
+		"group": "storage",
+		"version": "v1alpha1",
+		"kind": "VolumeAttachment",
+		"ref": "https://github.com/kubernetes/kubernetes/tree/master/staging/src/k8s.io/api/storage/v1alpha1/zz_generated.prerelease-lifecycle.go"
+	},
+	{
+		"description": "",
+		"deprecated-version": "v1.19",
+		"replacement-version": "certificates.k8s.io.v1.CertificateSigningRequestList",
+		"removed-version": "v1.22",
+		"group": "certificates",
+		"version": "v1beta1",
+		"kind": "CertificateSigningRequestList",
+		"ref": "https://github.com/kubernetes/kubernetes/tree/master/staging/src/k8s.io/api/certificates/v1beta1/zz_generated.prerelease-lifecycle.go"
+	},
+	{
+		"description": "",
+		"deprecated-version": "v1.17",
+		"replacement-version": "rbac.authorization.k8s.io.v1.ClusterRoleList",
+		"removed-version": "v1.22",
+		"group": "rbac",
+		"version": "v1beta1",
+		"kind": "ClusterRoleList",
+		"ref": "https://github.com/kubernetes/kubernetes/tree/master/staging/src/k8s.io/api/rbac/v1beta1/zz_generated.prerelease-lifecycle.go"
+	},
+	{
+		"description": "",
+		"deprecated-version": "v1.17",
+		"replacement-version": "rbac.authorization.k8s.io.v1.RoleBindingList",
+		"removed-version": "v1.22",
+		"group": "rbac",
+		"version": "v1beta1",
+		"kind": "RoleBindingList",
+		"ref": "https://github.com/kubernetes/kubernetes/tree/master/staging/src/k8s.io/api/rbac/v1beta1/zz_generated.prerelease-lifecycle.go"
+	},
+	{
+		"description": "",
+		"deprecated-version": "v1.9",
+		"replacement-version": "networking.k8s.io.v1.NetworkPolicy",
+		"removed-version": "v1.16",
+		"group": "extensions",
+		"version": "v1beta1",
+		"kind": "NetworkPolicy",
+		"ref": "https://github.com/kubernetes/kubernetes/tree/master/staging/src/k8s.io/api/extensions/v1beta1/zz_generated.prerelease-lifecycle.go"
+	},
+	{
+		"description": "",
+		"deprecated-version": "v1.23",
+		"replacement-version": "flowcontrol.apiserver.k8s.io.v1beta2.FlowSchemaList",
+		"removed-version": "v1.26",
+		"group": "flowcontrol",
+		"version": "v1beta1",
+		"kind": "FlowSchemaList",
+		"ref": "https://github.com/kubernetes/kubernetes/tree/master/staging/src/k8s.io/api/flowcontrol/v1beta1/zz_generated.prerelease-lifecycle.go"
+	},
+	{
+		"description": "",
+		"deprecated-version": "v1.22",
+		"replacement-version": "",
+		"removed-version": "v1.25",
 		"group": "autoscaling",
 		"version": "v2beta2",
-		"kind": "HorizontalPodAutoscaler"
+		"kind": "HorizontalPodAutoscalerList",
+		"ref": "https://github.com/kubernetes/kubernetes/tree/master/staging/src/k8s.io/api/autoscaling/v2beta2/zz_generated.prerelease-lifecycle.go"
 	},
 	{
-		"description": "The **batch/v1beta1** API version of CronJob will no longer be served in v1.25.",
-		"deprecated-version": "",
+		"description": "",
+		"deprecated-version": "v1.9",
+		"replacement-version": "apps.v1.ControllerRevisionList",
+		"removed-version": "v1.16",
+		"group": "apps",
+		"version": "v1beta2",
+		"kind": "ControllerRevisionList",
+		"ref": "https://github.com/kubernetes/kubernetes/tree/master/staging/src/k8s.io/api/apps/v1beta2/zz_generated.prerelease-lifecycle.go"
+	},
+	{
+		"description": "",
+		"deprecated-version": "v1.9",
+		"replacement-version": "apps.v1.Deployment",
+		"removed-version": "v1.16",
+		"group": "apps",
+		"version": "v1beta2",
+		"kind": "Deployment",
+		"ref": "https://github.com/kubernetes/kubernetes/tree/master/staging/src/k8s.io/api/apps/v1beta2/zz_generated.prerelease-lifecycle.go"
+	},
+	{
+		"description": "",
+		"deprecated-version": "v1.9",
+		"replacement-version": "apps.v1.StatefulSetList",
+		"removed-version": "v1.16",
+		"group": "apps",
+		"version": "v1beta2",
+		"kind": "StatefulSetList",
+		"ref": "https://github.com/kubernetes/kubernetes/tree/master/staging/src/k8s.io/api/apps/v1beta2/zz_generated.prerelease-lifecycle.go"
+	},
+	{
+		"description": "",
+		"deprecated-version": "v1.8",
+		"replacement-version": "apps.v1.ControllerRevisionList",
+		"removed-version": "v1.16",
+		"group": "apps",
+		"version": "v1beta1",
+		"kind": "ControllerRevisionList",
+		"ref": "https://github.com/kubernetes/kubernetes/tree/master/staging/src/k8s.io/api/apps/v1beta1/zz_generated.prerelease-lifecycle.go"
+	},
+	{
+		"description": "",
+		"deprecated-version": "v1.21",
+		"replacement-version": "batch.v1.CronJob",
 		"removed-version": "v1.25",
 		"group": "batch",
 		"version": "v1beta1",
-		"kind": "CronJob"
+		"kind": "CronJob",
+		"ref": "https://github.com/kubernetes/kubernetes/tree/master/staging/src/k8s.io/api/batch/v1beta1/zz_generated.prerelease-lifecycle.go"
 	},
 	{
-		"description": "The **discovery.k8s.io/v1beta1** API version of EndpointSlice will no longer be served in v1.25.",
-		"deprecated-version": "",
-		"removed-version": "v1.25",
-		"group": "discovery.k8s.io",
+		"description": "",
+		"deprecated-version": "v1.8",
+		"replacement-version": "apps.v1.ReplicaSetList",
+		"removed-version": "v1.16",
+		"group": "extensions",
 		"version": "v1beta1",
-		"kind": "EndpointSlice"
+		"kind": "ReplicaSetList",
+		"ref": "https://github.com/kubernetes/kubernetes/tree/master/staging/src/k8s.io/api/extensions/v1beta1/zz_generated.prerelease-lifecycle.go"
 	},
 	{
-		"description": "The **events.k8s.io/v1beta1** API version of Event will no longer be served in v1.25.",
-		"deprecated-version": "",
-		"removed-version": "v1.25",
-		"group": "events.k8s.io",
+		"description": "",
+		"deprecated-version": "v1.19",
+		"replacement-version": "storage.k8s.io.v1.CSIDriver",
+		"removed-version": "v1.22",
+		"group": "storage",
 		"version": "v1beta1",
-		"kind": "Event"
+		"kind": "CSIDriver",
+		"ref": "https://github.com/kubernetes/kubernetes/tree/master/staging/src/k8s.io/api/storage/v1beta1/zz_generated.prerelease-lifecycle.go"
 	},
 	{
-		"description": "The **autoscaling/v2beta1** API version of HorizontalPodAutoscaler will no longer be served in v1.25.",
-		"deprecated-version": "",
+		"description": "",
+		"deprecated-version": "v1.19",
+		"replacement-version": "storage.k8s.io.v1.VolumeAttachmentList",
+		"removed-version": "v1.22",
+		"group": "storage",
+		"version": "v1beta1",
+		"kind": "VolumeAttachmentList",
+		"ref": "https://github.com/kubernetes/kubernetes/tree/master/staging/src/k8s.io/api/storage/v1beta1/zz_generated.prerelease-lifecycle.go"
+	},
+	{
+		"description": "",
+		"deprecated-version": "v1.20",
+		"replacement-version": "flowcontrol.apiserver.k8s.io.v1beta2.PriorityLevelConfigurationList",
+		"removed-version": "v1.21",
+		"group": "flowcontrol",
+		"version": "v1alpha1",
+		"kind": "PriorityLevelConfigurationList",
+		"ref": "https://github.com/kubernetes/kubernetes/tree/master/staging/src/k8s.io/api/flowcontrol/v1alpha1/zz_generated.prerelease-lifecycle.go"
+	},
+	{
+		"description": "",
+		"deprecated-version": "v1.22",
+		"replacement-version": "",
+		"removed-version": "v1.25",
+		"group": "node",
+		"version": "v1beta1",
+		"kind": "RuntimeClass",
+		"ref": "https://github.com/kubernetes/kubernetes/tree/master/staging/src/k8s.io/api/node/v1beta1/zz_generated.prerelease-lifecycle.go"
+	},
+	{
+		"description": "",
+		"deprecated-version": "v1.16",
+		"replacement-version": "admissionregistration.k8s.io.v1.MutatingWebhookConfiguration",
+		"removed-version": "v1.22",
+		"group": "admissionregistration",
+		"version": "v1beta1",
+		"kind": "MutatingWebhookConfiguration",
+		"ref": "https://github.com/kubernetes/kubernetes/tree/master/staging/src/k8s.io/api/admissionregistration/v1beta1/zz_generated.prerelease-lifecycle.go"
+	},
+	{
+		"description": "",
+		"deprecated-version": "v1.9",
+		"replacement-version": "apps.v1.ReplicaSetList",
+		"removed-version": "v1.16",
+		"group": "apps",
+		"version": "v1beta2",
+		"kind": "ReplicaSetList",
+		"ref": "https://github.com/kubernetes/kubernetes/tree/master/staging/src/k8s.io/api/apps/v1beta2/zz_generated.prerelease-lifecycle.go"
+	},
+	{
+		"description": "",
+		"deprecated-version": "v1.9",
+		"replacement-version": "apps.v1.StatefulSet",
+		"removed-version": "v1.16",
+		"group": "apps",
+		"version": "v1beta2",
+		"kind": "StatefulSet",
+		"ref": "https://github.com/kubernetes/kubernetes/tree/master/staging/src/k8s.io/api/apps/v1beta2/zz_generated.prerelease-lifecycle.go"
+	},
+	{
+		"description": "",
+		"deprecated-version": "v1.16",
+		"replacement-version": "admissionregistration.k8s.io.v1.ValidatingWebhookConfiguration",
+		"removed-version": "v1.22",
+		"group": "admissionregistration",
+		"version": "v1beta1",
+		"kind": "ValidatingWebhookConfiguration",
+		"ref": "https://github.com/kubernetes/kubernetes/tree/master/staging/src/k8s.io/api/admissionregistration/v1beta1/zz_generated.prerelease-lifecycle.go"
+	},
+	{
+		"description": "",
+		"deprecated-version": "v1.22",
+		"replacement-version": "",
+		"removed-version": "v1.25",
+		"group": "events",
+		"version": "v1beta1",
+		"kind": "EventList",
+		"ref": "https://github.com/kubernetes/kubernetes/tree/master/staging/src/k8s.io/api/events/v1beta1/zz_generated.prerelease-lifecycle.go"
+	},
+	{
+		"description": "",
+		"deprecated-version": "v1.22",
+		"replacement-version": "autoscaling.v2.HorizontalPodAutoscaler",
 		"removed-version": "v1.25",
 		"group": "autoscaling",
 		"version": "v2beta1",
-		"kind": "HorizontalPodAutoscaler"
+		"kind": "HorizontalPodAutoscaler",
+		"ref": "https://github.com/kubernetes/kubernetes/tree/master/staging/src/k8s.io/api/autoscaling/v2beta1/zz_generated.prerelease-lifecycle.go"
 	},
 	{
-		"description": "The **policy/v1beta1** API version of PodDisruptionBudget will no longer be served in v1.25.",
-		"deprecated-version": "",
-		"removed-version": "v1.25",
-		"group": "policy",
-		"version": "v1beta1",
-		"kind": "PodDisruptionBudget"
+		"description": "",
+		"deprecated-version": "v1.9",
+		"replacement-version": "apps.v1.DeploymentList",
+		"removed-version": "v1.16",
+		"group": "apps",
+		"version": "v1beta2",
+		"kind": "DeploymentList",
+		"ref": "https://github.com/kubernetes/kubernetes/tree/master/staging/src/k8s.io/api/apps/v1beta2/zz_generated.prerelease-lifecycle.go"
 	},
 	{
-		"description": "RuntimeClass in the **node.k8s.io/v1beta1** API version will no longer be served in v1.25.",
-		"deprecated-version": "",
-		"removed-version": "v1.25",
-		"group": "node.k8s.io",
-		"version": "v1beta1",
-		"kind": "RuntimeClass"
-	},
-	{
-		"description": "The **admissionregistration.k8s.io/v1beta1** API version of MutatingWebhookConfiguration and ValidatingWebhookConfiguration is no longer served as of v1.22.",
-		"deprecated-version": "",
+		"description": "",
+		"deprecated-version": "v1.19",
+		"replacement-version": "storage.k8s.io.v1.CSIDriverList",
 		"removed-version": "v1.22",
-		"group": "admissionregistration.k8s.io",
+		"group": "storage",
 		"version": "v1beta1",
-		"kind": "MutatingWebhookConfiguration"
+		"kind": "CSIDriverList",
+		"ref": "https://github.com/kubernetes/kubernetes/tree/master/staging/src/k8s.io/api/storage/v1beta1/zz_generated.prerelease-lifecycle.go"
 	},
 	{
-		"description": "The **admissionregistration.k8s.io/v1beta1** API version of MutatingWebhookConfiguration and ValidatingWebhookConfiguration is no longer served as of v1.22.",
-		"deprecated-version": "",
+		"description": "",
+		"deprecated-version": "v1.24",
+		"replacement-version": "storage.k8s.io.v1.CSIStorageCapacityList",
+		"removed-version": "v1.27",
+		"group": "storage",
+		"version": "v1beta1",
+		"kind": "CSIStorageCapacityList",
+		"ref": "https://github.com/kubernetes/kubernetes/tree/master/staging/src/k8s.io/api/storage/v1beta1/zz_generated.prerelease-lifecycle.go"
+	},
+	{
+		"description": "",
+		"deprecated-version": "v1.19",
+		"replacement-version": "certificates.k8s.io.v1.CertificateSigningRequest",
 		"removed-version": "v1.22",
-		"group": "admissionregistration.k8s.io",
+		"group": "certificates",
 		"version": "v1beta1",
-		"kind": "ValidatingWebhookConfiguration"
+		"kind": "CertificateSigningRequest",
+		"ref": "https://github.com/kubernetes/kubernetes/tree/master/staging/src/k8s.io/api/certificates/v1beta1/zz_generated.prerelease-lifecycle.go"
 	},
 	{
-		"description": "The **apiextensions.k8s.io/v1beta1** API version of CustomResourceDefinition is no longer served as of v1.22.",
-		"deprecated-version": "",
+		"description": "",
+		"deprecated-version": "v1.17",
+		"replacement-version": "rbac.authorization.k8s.io.v1.RoleBinding",
 		"removed-version": "v1.22",
-		"group": "apiextensions.k8s.io",
+		"group": "rbac",
 		"version": "v1beta1",
-		"kind": "CustomResourceDefinition"
+		"kind": "RoleBinding",
+		"ref": "https://github.com/kubernetes/kubernetes/tree/master/staging/src/k8s.io/api/rbac/v1beta1/zz_generated.prerelease-lifecycle.go"
 	},
 	{
-		"description": "The **apiregistration.k8s.io/v1beta1** API version of APIService is no longer served as of v1.22.",
-		"deprecated-version": "",
-		"removed-version": "v1.22",
-		"group": "apiregistration.k8s.io",
-		"version": "v1beta1",
-		"kind": "APIService"
-	},
-	{
-		"description": "The **authentication.k8s.io/v1beta1** API version of TokenReview is no longer served as of v1.22.",
-		"deprecated-version": "",
-		"removed-version": "v1.22",
-		"group": "authentication.k8s.io",
-		"version": "v1beta1",
-		"kind": "TokenReview"
-	},
-	{
-		"description": "The **authorization.k8s.io/v1beta1** API version of LocalSubjectAccessReview, SelfSubjectAccessReview, SubjectAccessReview, and SelfSubjectRulesReview is no longer served as of v1.22.",
-		"deprecated-version": "",
-		"removed-version": "v1.22",
-		"group": "authorization.k8s.io",
-		"version": "v1beta1",
-		"kind": "LocalSubjectAccessReview"
-	},
-	{
-		"description": "The **authorization.k8s.io/v1beta1** API version of LocalSubjectAccessReview, SelfSubjectAccessReview, SubjectAccessReview, and SelfSubjectRulesReview is no longer served as of v1.22.",
-		"deprecated-version": "",
-		"removed-version": "v1.22",
-		"group": "authorization.k8s.io",
-		"version": "v1beta1",
-		"kind": "SelfSubjectAccessReview"
-	},
-	{
-		"description": "The **authorization.k8s.io/v1beta1** API version of LocalSubjectAccessReview, SelfSubjectAccessReview, SubjectAccessReview, and SelfSubjectRulesReview is no longer served as of v1.22.",
-		"deprecated-version": "",
-		"removed-version": "v1.22",
-		"group": "authorization.k8s.io",
-		"version": "v1beta1",
-		"kind": "SubjectAccessReview"
-	},
-	{
-		"description": "The **authorization.k8s.io/v1beta1** API version of LocalSubjectAccessReview, SelfSubjectAccessReview, SubjectAccessReview, and SelfSubjectRulesReview is no longer served as of v1.22.",
-		"deprecated-version": "",
-		"removed-version": "v1.22",
-		"group": "authorization.k8s.io",
-		"version": "v1beta1",
-		"kind": "SelfSubjectRulesReview"
-	},
-	{
-		"description": "The **certificates.k8s.io/v1beta1** API version of CertificateSigningRequest is no longer served as of v1.22.",
-		"deprecated-version": "",
-		"removed-version": "v1.22",
-		"group": "certificates.k8s.io",
-		"version": "v1beta1",
-		"kind": "CertificateSigningRequest"
-	},
-	{
-		"description": "The **coordination.k8s.io/v1beta1** API version of Lease is no longer served as of v1.22.",
-		"deprecated-version": "",
-		"removed-version": "v1.22",
-		"group": "coordination.k8s.io",
-		"version": "v1beta1",
-		"kind": "Lease"
-	},
-	{
-		"description": "The **extensions/v1beta1** and **networking.k8s.io/v1beta1** API versions of Ingress is no longer served as of v1.22.",
-		"deprecated-version": "",
-		"removed-version": "v1.22",
-		"group": "extensions",
-		"version": "v1beta1",
-		"kind": "Ingress"
-	},
-	{
-		"description": "The **extensions/v1beta1** and **networking.k8s.io/v1beta1** API versions of Ingress is no longer served as of v1.22.",
-		"deprecated-version": "",
-		"removed-version": "v1.22",
-		"group": "networking.k8s.io",
-		"version": "v1beta1",
-		"kind": "Ingress"
-	},
-	{
-		"description": "The **networking.k8s.io/v1beta1** API version of IngressClass is no longer served as of v1.22.",
-		"deprecated-version": "",
-		"removed-version": "v1.22",
-		"group": "networking.k8s.io",
-		"version": "v1beta1",
-		"kind": "IngressClass"
-	},
-	{
-		"description": "The **rbac.authorization.k8s.io/v1beta1** API version of ClusterRole, ClusterRoleBinding, Role, and RoleBinding is no longer served as of v1.22.",
-		"deprecated-version": "",
-		"removed-version": "v1.22",
-		"group": "rbac.authorization.k8s.io",
-		"version": "v1beta1",
-		"kind": "ClusterRole"
-	},
-	{
-		"description": "The **rbac.authorization.k8s.io/v1beta1** API version of ClusterRole, ClusterRoleBinding, Role, and RoleBinding is no longer served as of v1.22.",
-		"deprecated-version": "",
-		"removed-version": "v1.22",
-		"group": "rbac.authorization.k8s.io",
-		"version": "v1beta1",
-		"kind": "ClusterRoleBinding"
-	},
-	{
-		"description": "The **rbac.authorization.k8s.io/v1beta1** API version of ClusterRole, ClusterRoleBinding, Role, and RoleBinding is no longer served as of v1.22.",
-		"deprecated-version": "",
-		"removed-version": "v1.22",
-		"group": "rbac.authorization.k8s.io",
-		"version": "v1beta1",
-		"kind": "Role"
-	},
-	{
-		"description": "The **rbac.authorization.k8s.io/v1beta1** API version of ClusterRole, ClusterRoleBinding, Role, and RoleBinding is no longer served as of v1.22.",
-		"deprecated-version": "",
-		"removed-version": "v1.22",
-		"group": "rbac.authorization.k8s.io",
-		"version": "v1beta1",
-		"kind": "RoleBinding"
-	},
-	{
-		"description": "The **scheduling.k8s.io/v1beta1** API version of PriorityClass is no longer served as of v1.22.",
-		"deprecated-version": "",
-		"removed-version": "v1.22",
-		"group": "scheduling.k8s.io",
-		"version": "v1beta1",
-		"kind": "PriorityClass"
-	},
-	{
-		"description": "The **storage.k8s.io/v1beta1** API version of CSIDriver, CSINode, StorageClass, and VolumeAttachment is no longer served as of v1.22.",
-		"deprecated-version": "",
-		"removed-version": "v1.22",
-		"group": "storage.k8s.io",
-		"version": "v1beta1",
-		"kind": "CSIDriver"
-	},
-	{
-		"description": "The **storage.k8s.io/v1beta1** API version of CSIDriver, CSINode, StorageClass, and VolumeAttachment is no longer served as of v1.22.",
-		"deprecated-version": "",
-		"removed-version": "v1.22",
-		"group": "storage.k8s.io",
-		"version": "v1beta1",
-		"kind": "CSINode"
-	},
-	{
-		"description": "The **storage.k8s.io/v1beta1** API version of CSIDriver, CSINode, StorageClass, and VolumeAttachment is no longer served as of v1.22.",
-		"deprecated-version": "",
-		"removed-version": "v1.22",
-		"group": "storage.k8s.io",
-		"version": "v1beta1",
-		"kind": "StorageClass"
-	},
-	{
-		"description": "The **storage.k8s.io/v1beta1** API version of CSIDriver, CSINode, StorageClass, and VolumeAttachment is no longer served as of v1.22.",
-		"deprecated-version": "",
-		"removed-version": "v1.22",
-		"group": "storage.k8s.io",
-		"version": "v1beta1",
-		"kind": "VolumeAttachment"
-	},
-	{
-		"description": "The **extensions/v1beta1** API version of NetworkPolicy is no longer served as of v1.16.",
-		"deprecated-version": "",
+		"description": "",
+		"deprecated-version": "v1.8",
+		"replacement-version": "apps.v1.Deployment",
 		"removed-version": "v1.16",
 		"group": "extensions",
 		"version": "v1beta1",
-		"kind": "NetworkPolicy"
+		"kind": "Deployment",
+		"ref": "https://github.com/kubernetes/kubernetes/tree/master/staging/src/k8s.io/api/extensions/v1beta1/zz_generated.prerelease-lifecycle.go"
 	},
 	{
-		"description": "The **extensions/v1beta1** API version of PodSecurityPolicy is no longer served as of v1.16.",
-		"deprecated-version": "",
+		"description": "",
+		"deprecated-version": "v1.21",
+		"replacement-version": "discovery.k8s.io.v1.EndpointSlice",
+		"removed-version": "v1.25",
+		"group": "discovery",
+		"version": "v1beta1",
+		"kind": "EndpointSliceList",
+		"ref": "https://github.com/kubernetes/kubernetes/tree/master/staging/src/k8s.io/api/discovery/v1beta1/zz_generated.prerelease-lifecycle.go"
+	},
+	{
+		"description": "",
+		"deprecated-version": "v1.2",
+		"replacement-version": "",
 		"removed-version": "v1.16",
 		"group": "extensions",
 		"version": "v1beta1",
-		"kind": "PodSecurityPolicy"
+		"kind": "Scale",
+		"ref": "https://github.com/kubernetes/kubernetes/tree/master/staging/src/k8s.io/api/extensions/v1beta1/zz_generated.prerelease-lifecycle.go"
 	},
 	{
-		"description": "ClusterRoleList is a collection of ClusterRoles. Deprecated in v1.17 in favor of rbac.authorization.k8s.io/v1 ClusterRoles, and will no longer be served in v1.22.",
-		"deprecated-version": "v1.17",
-		"removed-version": "v1.22",
-		"group": "rbac.authorization.k8s.io",
-		"version": "v1beta1",
-		"kind": "ClusterRoleList"
-	},
-	{
-		"description": "RoleBinding references a role, but does not contain it.  It can reference a Role in the same namespace or a ClusterRole in the global namespace. It adds who information via Subjects and namespace information by which namespace it exists in.  RoleBindings in a given namespace only have effect in that namespace. Deprecated in v1.17 in favor of rbac.authorization.k8s.io/v1 RoleBinding, and will no longer be served in v1.22.",
-		"deprecated-version": "v1.17",
-		"removed-version": "v1.22",
-		"group": "rbac.authorization.k8s.io",
-		"version": "v1beta1",
-		"kind": "RoleBinding"
-	},
-	{
-		"description": "ClusterRoleBindingList is a collection of ClusterRoleBindings. Deprecated in v1.17 in favor of rbac.authorization.k8s.io/v1 ClusterRoleBindingList, and will no longer be served in v1.22.",
-		"deprecated-version": "v1.17",
-		"removed-version": "v1.22",
-		"group": "rbac.authorization.k8s.io",
-		"version": "v1beta1",
-		"kind": "ClusterRoleBindingList"
-	},
-	{
-		"description": "ClusterRoleBinding references a ClusterRole, but not contain it.  It can reference a ClusterRole in the global namespace, and adds who information via Subject. Deprecated in v1.17 in favor of rbac.authorization.k8s.io/v1 ClusterRoleBinding, and will no longer be served in v1.22.",
-		"deprecated-version": "v1.17",
-		"removed-version": "v1.22",
-		"group": "rbac.authorization.k8s.io",
-		"version": "v1alpha1",
-		"kind": "ClusterRoleBinding"
-	},
-	{
-		"description": "CustomResourceDefinition represents a resource that should be exposed on the API server.  Its name MUST be in the format \u003c.spec.name\u003e.\u003c.spec.group\u003e. Deprecated in v1.16, planned for removal in v1.22. Use apiextensions.k8s.io/v1 CustomResourceDefinition instead.",
-		"deprecated-version": "v1.16",
-		"removed-version": "v1.22",
-		"group": "apiextensions.k8s.io",
-		"version": "v1beta1",
-		"kind": "CustomResourceDefinition"
-	},
-	{
-		"description": "ValidatingWebhookConfiguration describes the configuration of and admission webhook that accept or reject and object without changing it. Deprecated in v1.16, planned for removal in v1.19. Use admissionregistration.k8s.io/v1 ValidatingWebhookConfiguration instead.",
-		"deprecated-version": "v1.16",
-		"removed-version": "v1.19",
-		"group": "admissionregistration.k8s.io",
-		"version": "v1beta1",
-		"kind": "ValidatingWebhookConfiguration"
-	},
-	{
-		"description": "ClusterRoleBinding references a ClusterRole, but not contain it.  It can reference a ClusterRole in the global namespace, and adds who information via Subject. Deprecated in v1.17 in favor of rbac.authorization.k8s.io/v1 ClusterRoleBinding, and will no longer be served in v1.22.",
-		"deprecated-version": "v1.17",
-		"removed-version": "v1.22",
-		"group": "rbac.authorization.k8s.io",
-		"version": "v1beta1",
-		"kind": "ClusterRoleBinding"
-	},
-	{
-		"description": "ClusterRoleBindingList is a collection of ClusterRoleBindings. Deprecated in v1.17 in favor of rbac.authorization.k8s.io/v1 ClusterRoleBindings, and will no longer be served in v1.22.",
-		"deprecated-version": "v1.17",
-		"removed-version": "v1.22",
-		"group": "rbac.authorization.k8s.io",
-		"version": "v1alpha1",
-		"kind": "ClusterRoleBindingList"
-	},
-	{
-		"description": "ClusterRoleList is a collection of ClusterRoles. Deprecated in v1.17 in favor of rbac.authorization.k8s.io/v1 ClusterRoles, and will no longer be served in v1.22.",
-		"deprecated-version": "v1.17",
-		"removed-version": "v1.22",
-		"group": "rbac.authorization.k8s.io",
-		"version": "v1alpha1",
-		"kind": "ClusterRoleList"
-	},
-	{
-		"description": "Role is a namespaced, logical grouping of PolicyRules that can be referenced as a unit by a RoleBinding. Deprecated in v1.17 in favor of rbac.authorization.k8s.io/v1 Role, and will no longer be served in v1.22.",
-		"deprecated-version": "v1.17",
-		"removed-version": "v1.22",
-		"group": "rbac.authorization.k8s.io",
-		"version": "v1alpha1",
-		"kind": "Role"
-	},
-	{
-		"description": "RoleBindingList is a collection of RoleBindings Deprecated in v1.17 in favor of rbac.authorization.k8s.io/v1 RoleBindingList, and will no longer be served in v1.22.",
-		"deprecated-version": "v1.17",
-		"removed-version": "v1.22",
-		"group": "rbac.authorization.k8s.io",
-		"version": "v1beta1",
-		"kind": "RoleBindingList"
-	},
-	{
-		"description": "ClusterRole is a cluster level, logical grouping of PolicyRules that can be referenced as a unit by a RoleBinding or ClusterRoleBinding. Deprecated in v1.17 in favor of rbac.authorization.k8s.io/v1 ClusterRole, and will no longer be served in v1.22.",
-		"deprecated-version": "v1.17",
-		"removed-version": "v1.22",
-		"group": "rbac.authorization.k8s.io",
-		"version": "v1beta1",
-		"kind": "ClusterRole"
-	},
-	{
-		"description": "RoleBindingList is a collection of RoleBindings Deprecated in v1.17 in favor of rbac.authorization.k8s.io/v1 RoleBindingList, and will no longer be served in v1.22.",
-		"deprecated-version": "v1.17",
-		"removed-version": "v1.22",
-		"group": "rbac.authorization.k8s.io",
-		"version": "v1alpha1",
-		"kind": "RoleBindingList"
-	},
-	{
-		"description": "Role is a namespaced, logical grouping of PolicyRules that can be referenced as a unit by a RoleBinding. Deprecated in v1.17 in favor of rbac.authorization.k8s.io/v1 Role, and will no longer be served in v1.22.",
-		"deprecated-version": "v1.17",
-		"removed-version": "v1.22",
-		"group": "rbac.authorization.k8s.io",
-		"version": "v1beta1",
-		"kind": "Role"
-	},
-	{
-		"description": "PodSecurityPolicy governs the ability to make requests that affect the Security Context that will be applied to a pod and container. Deprecated in 1.21.",
-		"deprecated-version": "1.21",
+		"description": "",
+		"deprecated-version": "v1.21",
+		"replacement-version": "policy.v1.PodDisruptionBudgetList",
 		"removed-version": "v1.25",
 		"group": "policy",
 		"version": "v1beta1",
-		"kind": "PodSecurityPolicy"
+		"kind": "PodDisruptionBudgetList",
+		"ref": "https://github.com/kubernetes/kubernetes/tree/master/staging/src/k8s.io/api/policy/v1beta1/zz_generated.prerelease-lifecycle.go"
 	},
 	{
-		"description": "MutatingWebhookConfiguration describes the configuration of and admission webhook that accept or reject and may change the object. Deprecated in v1.16, planned for removal in v1.19. Use admissionregistration.k8s.io/v1 MutatingWebhookConfiguration instead.",
-		"deprecated-version": "v1.16",
-		"removed-version": "v1.19",
-		"group": "admissionregistration.k8s.io",
+		"description": "",
+		"deprecated-version": "v1.19",
+		"replacement-version": "storage.k8s.io.v1.VolumeAttachment",
+		"removed-version": "v1.22",
+		"group": "storage",
 		"version": "v1beta1",
-		"kind": "MutatingWebhookConfiguration"
+		"kind": "VolumeAttachment",
+		"ref": "https://github.com/kubernetes/kubernetes/tree/master/staging/src/k8s.io/api/storage/v1beta1/zz_generated.prerelease-lifecycle.go"
 	},
 	{
-		"description": "ClusterRole is a cluster level, logical grouping of PolicyRules that can be referenced as a unit by a RoleBinding or ClusterRoleBinding. Deprecated in v1.17 in favor of rbac.authorization.k8s.io/v1 ClusterRole, and will no longer be served in v1.22.",
-		"deprecated-version": "v1.17",
-		"removed-version": "v1.22",
-		"group": "rbac.authorization.k8s.io",
-		"version": "v1alpha1",
-		"kind": "ClusterRole"
-	},
-	{
-		"description": "RoleBinding references a role, but does not contain it.  It can reference a Role in the same namespace or a ClusterRole in the global namespace. It adds who information via Subjects and namespace information by which namespace it exists in.  RoleBindings in a given namespace only have effect in that namespace. Deprecated in v1.17 in favor of rbac.authorization.k8s.io/v1 RoleBinding, and will no longer be served in v1.22.",
-		"deprecated-version": "v1.17",
-		"removed-version": "v1.22",
-		"group": "rbac.authorization.k8s.io",
-		"version": "v1alpha1",
-		"kind": "RoleBinding"
-	},
-	{
-		"description": "RoleList is a collection of Roles Deprecated in v1.17 in favor of rbac.authorization.k8s.io/v1 RoleList, and will no longer be served in v1.22.",
-		"deprecated-version": "v1.17",
-		"removed-version": "v1.22",
-		"group": "rbac.authorization.k8s.io",
+		"description": "",
+		"deprecated-version": "v1.21",
+		"replacement-version": "discovery.k8s.io.v1.EndpointSlice",
+		"removed-version": "v1.25",
+		"group": "discovery",
 		"version": "v1beta1",
-		"kind": "RoleList"
+		"kind": "EndpointSlice",
+		"ref": "https://github.com/kubernetes/kubernetes/tree/master/staging/src/k8s.io/api/discovery/v1beta1/zz_generated.prerelease-lifecycle.go"
 	},
 	{
-		"description": "RoleList is a collection of Roles. Deprecated in v1.17 in favor of rbac.authorization.k8s.io/v1 RoleList, and will no longer be served in v1.22.",
+		"description": "",
+		"deprecated-version": "v1.21",
+		"replacement-version": "policy.v1.PodDisruptionBudget",
+		"removed-version": "v1.25",
+		"group": "policy",
+		"version": "v1beta1",
+		"kind": "PodDisruptionBudget",
+		"ref": "https://github.com/kubernetes/kubernetes/tree/master/staging/src/k8s.io/api/policy/v1beta1/zz_generated.prerelease-lifecycle.go"
+	},
+	{
+		"description": "",
 		"deprecated-version": "v1.17",
+		"replacement-version": "storage.k8s.io.v1.CSINode",
 		"removed-version": "v1.22",
-		"group": "rbac.authorization.k8s.io",
+		"group": "storage",
+		"version": "v1beta1",
+		"kind": "CSINodeList",
+		"ref": "https://github.com/kubernetes/kubernetes/tree/master/staging/src/k8s.io/api/storage/v1beta1/zz_generated.prerelease-lifecycle.go"
+	},
+	{
+		"description": "",
+		"deprecated-version": "v1.9",
+		"replacement-version": "apps.v1.DaemonSetList",
+		"removed-version": "v1.16",
+		"group": "apps",
+		"version": "v1beta2",
+		"kind": "DaemonSetList",
+		"ref": "https://github.com/kubernetes/kubernetes/tree/master/staging/src/k8s.io/api/apps/v1beta2/zz_generated.prerelease-lifecycle.go"
+	},
+	{
+		"description": "",
+		"deprecated-version": "v1.17",
+		"replacement-version": "rbac.authorization.k8s.io.v1.ClusterRoleBindingList",
+		"removed-version": "v1.22",
+		"group": "rbac",
+		"version": "v1beta1",
+		"kind": "ClusterRoleBindingList",
+		"ref": "https://github.com/kubernetes/kubernetes/tree/master/staging/src/k8s.io/api/rbac/v1beta1/zz_generated.prerelease-lifecycle.go"
+	},
+	{
+		"description": "",
+		"deprecated-version": "v1.17",
+		"replacement-version": "rbac.authorization.k8s.io.v1.Role",
+		"removed-version": "v1.22",
+		"group": "rbac",
+		"version": "v1beta1",
+		"kind": "Role",
+		"ref": "https://github.com/kubernetes/kubernetes/tree/master/staging/src/k8s.io/api/rbac/v1beta1/zz_generated.prerelease-lifecycle.go"
+	},
+	{
+		"description": "",
+		"deprecated-version": "v1.21",
+		"replacement-version": "storage.k8s.io.v1beta1.CSIStorageCapacityList",
+		"removed-version": "v1.24",
+		"group": "storage",
 		"version": "v1alpha1",
-		"kind": "RoleList"
+		"kind": "CSIStorageCapacityList",
+		"ref": "https://github.com/kubernetes/kubernetes/tree/master/staging/src/k8s.io/api/storage/v1alpha1/zz_generated.prerelease-lifecycle.go"
+	},
+	{
+		"description": "",
+		"deprecated-version": "v1.28",
+		"replacement-version": "",
+		"removed-version": "v1.31",
+		"group": "networking",
+		"version": "v1alpha1",
+		"kind": "ClusterCIDR",
+		"ref": "https://github.com/kubernetes/kubernetes/tree/master/staging/src/k8s.io/api/networking/v1alpha1/zz_generated.prerelease-lifecycle.go"
+	},
+	{
+		"description": "",
+		"deprecated-version": "v1.19",
+		"replacement-version": "networking.k8s.io.v1.IngressList",
+		"removed-version": "v1.22",
+		"group": "networking",
+		"version": "v1beta1",
+		"kind": "IngressList",
+		"ref": "https://github.com/kubernetes/kubernetes/tree/master/staging/src/k8s.io/api/networking/v1beta1/zz_generated.prerelease-lifecycle.go"
+	},
+	{
+		"description": "",
+		"deprecated-version": "v1.14",
+		"replacement-version": "scheduling.k8s.io.v1.PriorityClass",
+		"removed-version": "v1.22",
+		"group": "scheduling",
+		"version": "v1beta1",
+		"kind": "PriorityClass",
+		"ref": "https://github.com/kubernetes/kubernetes/tree/master/staging/src/k8s.io/api/scheduling/v1beta1/zz_generated.prerelease-lifecycle.go"
+	},
+	{
+		"description": "",
+		"deprecated-version": "v1.19",
+		"replacement-version": "coordination.k8s.io.v1.Lease",
+		"removed-version": "v1.22",
+		"group": "coordination",
+		"version": "v1beta1",
+		"kind": "Lease",
+		"ref": "https://github.com/kubernetes/kubernetes/tree/master/staging/src/k8s.io/api/coordination/v1beta1/zz_generated.prerelease-lifecycle.go"
+	},
+	{
+		"description": "",
+		"deprecated-version": "v1.14",
+		"replacement-version": "networking.k8s.io.v1.IngressList",
+		"removed-version": "v1.22",
+		"group": "extensions",
+		"version": "v1beta1",
+		"kind": "IngressList",
+		"ref": "https://github.com/kubernetes/kubernetes/tree/master/staging/src/k8s.io/api/extensions/v1beta1/zz_generated.prerelease-lifecycle.go"
+	},
+	{
+		"description": "",
+		"deprecated-version": "v1.23",
+		"replacement-version": "autoscaling.v2.HorizontalPodAutoscaler",
+		"removed-version": "v1.26",
+		"group": "autoscaling",
+		"version": "v2beta2",
+		"kind": "HorizontalPodAutoscaler",
+		"ref": "https://github.com/kubernetes/kubernetes/tree/master/staging/src/k8s.io/api/autoscaling/v2beta2/zz_generated.prerelease-lifecycle.go"
+	},
+	{
+		"description": "",
+		"deprecated-version": "v1.14",
+		"replacement-version": "networking.k8s.io.v1.Ingress",
+		"removed-version": "v1.22",
+		"group": "extensions",
+		"version": "v1beta1",
+		"kind": "Ingress",
+		"ref": "https://github.com/kubernetes/kubernetes/tree/master/staging/src/k8s.io/api/extensions/v1beta1/zz_generated.prerelease-lifecycle.go"
+	},
+	{
+		"description": "",
+		"deprecated-version": "v1.22",
+		"replacement-version": "autoscaling.v2beta2.HorizontalPodAutoscalerList",
+		"removed-version": "v1.25",
+		"group": "autoscaling",
+		"version": "v2beta1",
+		"kind": "HorizontalPodAutoscalerList",
+		"ref": "https://github.com/kubernetes/kubernetes/tree/master/staging/src/k8s.io/api/autoscaling/v2beta1/zz_generated.prerelease-lifecycle.go"
+	},
+	{
+		"description": "",
+		"deprecated-version": "v1.26",
+		"replacement-version": "",
+		"removed-version": "v1.29",
+		"group": "flowcontrol",
+		"version": "v1beta2",
+		"kind": "PriorityLevelConfiguration",
+		"ref": "https://github.com/kubernetes/kubernetes/tree/master/staging/src/k8s.io/api/flowcontrol/v1beta2/zz_generated.prerelease-lifecycle.go"
+	},
+	{
+		"description": "",
+		"deprecated-version": "v1.8",
+		"replacement-version": "apps.v1.Deployment",
+		"removed-version": "v1.16",
+		"group": "apps",
+		"version": "v1beta1",
+		"kind": "Deployment",
+		"ref": "https://github.com/kubernetes/kubernetes/tree/master/staging/src/k8s.io/api/apps/v1beta1/zz_generated.prerelease-lifecycle.go"
+	},
+	{
+		"description": "",
+		"deprecated-version": "v1.8",
+		"replacement-version": "apps.v1.StatefulSetList",
+		"removed-version": "v1.16",
+		"group": "apps",
+		"version": "v1beta1",
+		"kind": "StatefulSetList",
+		"ref": "https://github.com/kubernetes/kubernetes/tree/master/staging/src/k8s.io/api/apps/v1beta1/zz_generated.prerelease-lifecycle.go"
+	},
+	{
+		"description": "",
+		"deprecated-version": "v1.22",
+		"replacement-version": "",
+		"removed-version": "v1.25",
+		"group": "batch",
+		"version": "v1beta1",
+		"kind": "JobTemplate",
+		"ref": "https://github.com/kubernetes/kubernetes/tree/master/staging/src/k8s.io/api/batch/v1beta1/zz_generated.prerelease-lifecycle.go"
+	},
+	{
+		"description": "",
+		"deprecated-version": "v1.8",
+		"replacement-version": "",
+		"removed-version": "v1.16",
+		"group": "extensions",
+		"version": "v1beta1",
+		"kind": "DeploymentRollback",
+		"ref": "https://github.com/kubernetes/kubernetes/tree/master/staging/src/k8s.io/api/extensions/v1beta1/zz_generated.prerelease-lifecycle.go"
+	},
+	{
+		"description": "",
+		"deprecated-version": "v1.9",
+		"replacement-version": "networking.k8s.io.v1.NetworkPolicyList",
+		"removed-version": "v1.16",
+		"group": "extensions",
+		"version": "v1beta1",
+		"kind": "NetworkPolicyList",
+		"ref": "https://github.com/kubernetes/kubernetes/tree/master/staging/src/k8s.io/api/extensions/v1beta1/zz_generated.prerelease-lifecycle.go"
+	},
+	{
+		"description": "",
+		"deprecated-version": "v1.11",
+		"replacement-version": "policy.v1beta1.PodSecurityPolicy",
+		"removed-version": "v1.16",
+		"group": "extensions",
+		"version": "v1beta1",
+		"kind": "PodSecurityPolicy",
+		"ref": "https://github.com/kubernetes/kubernetes/tree/master/staging/src/k8s.io/api/extensions/v1beta1/zz_generated.prerelease-lifecycle.go"
+	},
+	{
+		"description": "",
+		"deprecated-version": "v1.11",
+		"replacement-version": "policy.v1beta1.PodSecurityPolicyList",
+		"removed-version": "v1.16",
+		"group": "extensions",
+		"version": "v1beta1",
+		"kind": "PodSecurityPolicyList",
+		"ref": "https://github.com/kubernetes/kubernetes/tree/master/staging/src/k8s.io/api/extensions/v1beta1/zz_generated.prerelease-lifecycle.go"
+	},
+	{
+		"description": "",
+		"deprecated-version": "v1.8",
+		"replacement-version": "apps.v1.ReplicaSet",
+		"removed-version": "v1.16",
+		"group": "extensions",
+		"version": "v1beta1",
+		"kind": "ReplicaSet",
+		"ref": "https://github.com/kubernetes/kubernetes/tree/master/staging/src/k8s.io/api/extensions/v1beta1/zz_generated.prerelease-lifecycle.go"
+	},
+	{
+		"description": "",
+		"deprecated-version": "v1.20",
+		"replacement-version": "flowcontrol.apiserver.k8s.io.v1beta2.FlowSchemaList",
+		"removed-version": "v1.21",
+		"group": "flowcontrol",
+		"version": "v1alpha1",
+		"kind": "FlowSchemaList",
+		"ref": "https://github.com/kubernetes/kubernetes/tree/master/staging/src/k8s.io/api/flowcontrol/v1alpha1/zz_generated.prerelease-lifecycle.go"
+	},
+	{
+		"description": "",
+		"deprecated-version": "v1.20",
+		"replacement-version": "flowcontrol.apiserver.k8s.io.v1beta2.PriorityLevelConfiguration",
+		"removed-version": "v1.21",
+		"group": "flowcontrol",
+		"version": "v1alpha1",
+		"kind": "PriorityLevelConfiguration",
+		"ref": "https://github.com/kubernetes/kubernetes/tree/master/staging/src/k8s.io/api/flowcontrol/v1alpha1/zz_generated.prerelease-lifecycle.go"
+	},
+	{
+		"description": "",
+		"deprecated-version": "v1.21",
+		"replacement-version": "storage.k8s.io.v1.VolumeAttachmentList",
+		"removed-version": "v1.24",
+		"group": "storage",
+		"version": "v1alpha1",
+		"kind": "VolumeAttachmentList",
+		"ref": "https://github.com/kubernetes/kubernetes/tree/master/staging/src/k8s.io/api/storage/v1alpha1/zz_generated.prerelease-lifecycle.go"
+	},
+	{
+		"description": "",
+		"deprecated-version": "v1.21",
+		"replacement-version": "batch.v1.CronJobList",
+		"removed-version": "v1.25",
+		"group": "batch",
+		"version": "v1beta1",
+		"kind": "CronJobList",
+		"ref": "https://github.com/kubernetes/kubernetes/tree/master/staging/src/k8s.io/api/batch/v1beta1/zz_generated.prerelease-lifecycle.go"
+	},
+	{
+		"description": "",
+		"deprecated-version": "v1.19",
+		"replacement-version": "networking.k8s.io.v1.IngressClassList",
+		"removed-version": "v1.22",
+		"group": "networking",
+		"version": "v1beta1",
+		"kind": "IngressClassList",
+		"ref": "https://github.com/kubernetes/kubernetes/tree/master/staging/src/k8s.io/api/networking/v1beta1/zz_generated.prerelease-lifecycle.go"
+	},
+	{
+		"description": "",
+		"deprecated-version": "v1.19",
+		"replacement-version": "coordination.k8s.io.v1.LeaseList",
+		"removed-version": "v1.22",
+		"group": "coordination",
+		"version": "v1beta1",
+		"kind": "LeaseList",
+		"ref": "https://github.com/kubernetes/kubernetes/tree/master/staging/src/k8s.io/api/coordination/v1beta1/zz_generated.prerelease-lifecycle.go"
+	},
+	{
+		"description": "",
+		"deprecated-version": "v1.19",
+		"replacement-version": "authorization.k8s.io.v1.LocalSubjectAccessReview",
+		"removed-version": "v1.22",
+		"group": "authorization",
+		"version": "v1beta1",
+		"kind": "LocalSubjectAccessReview",
+		"ref": "https://github.com/kubernetes/kubernetes/tree/master/staging/src/k8s.io/api/authorization/v1beta1/zz_generated.prerelease-lifecycle.go"
+	},
+	{
+		"description": "",
+		"deprecated-version": "v1.19",
+		"replacement-version": "authorization.k8s.io.v1.SelfSubjectAccessReview",
+		"removed-version": "v1.22",
+		"group": "authorization",
+		"version": "v1beta1",
+		"kind": "SelfSubjectAccessReview",
+		"ref": "https://github.com/kubernetes/kubernetes/tree/master/staging/src/k8s.io/api/authorization/v1beta1/zz_generated.prerelease-lifecycle.go"
+	},
+	{
+		"description": "",
+		"deprecated-version": "v1.19",
+		"replacement-version": "authorization.k8s.io.v1.SelfSubjectRulesReview",
+		"removed-version": "v1.22",
+		"group": "authorization",
+		"version": "v1beta1",
+		"kind": "SelfSubjectRulesReview",
+		"ref": "https://github.com/kubernetes/kubernetes/tree/master/staging/src/k8s.io/api/authorization/v1beta1/zz_generated.prerelease-lifecycle.go"
+	},
+	{
+		"description": "",
+		"deprecated-version": "v1.8",
+		"replacement-version": "apps.v1.DeploymentList",
+		"removed-version": "v1.16",
+		"group": "extensions",
+		"version": "v1beta1",
+		"kind": "DeploymentList",
+		"ref": "https://github.com/kubernetes/kubernetes/tree/master/staging/src/k8s.io/api/extensions/v1beta1/zz_generated.prerelease-lifecycle.go"
+	},
+	{
+		"description": "",
+		"deprecated-version": "v1.26",
+		"replacement-version": "",
+		"removed-version": "v1.29",
+		"group": "flowcontrol",
+		"version": "v1beta2",
+		"kind": "FlowSchemaList",
+		"ref": "https://github.com/kubernetes/kubernetes/tree/master/staging/src/k8s.io/api/flowcontrol/v1beta2/zz_generated.prerelease-lifecycle.go"
+	},
+	{
+		"description": "",
+		"deprecated-version": "v1.17",
+		"replacement-version": "rbac.authorization.k8s.io.v1.RoleList",
+		"removed-version": "v1.22",
+		"group": "rbac",
+		"version": "v1beta1",
+		"kind": "RoleList",
+		"ref": "https://github.com/kubernetes/kubernetes/tree/master/staging/src/k8s.io/api/rbac/v1beta1/zz_generated.prerelease-lifecycle.go"
+	},
+	{
+		"description": "",
+		"deprecated-version": "v1.19",
+		"replacement-version": "networking.k8s.io.v1.IngressClassList",
+		"removed-version": "v1.22",
+		"group": "networking",
+		"version": "v1beta1",
+		"kind": "IngressClass",
+		"ref": "https://github.com/kubernetes/kubernetes/tree/master/staging/src/k8s.io/api/networking/v1beta1/zz_generated.prerelease-lifecycle.go"
+	},
+	{
+		"description": "",
+		"deprecated-version": "v1.19",
+		"replacement-version": "authorization.k8s.io.v1.SubjectAccessReview",
+		"removed-version": "v1.22",
+		"group": "authorization",
+		"version": "v1beta1",
+		"kind": "SubjectAccessReview",
+		"ref": "https://github.com/kubernetes/kubernetes/tree/master/staging/src/k8s.io/api/authorization/v1beta1/zz_generated.prerelease-lifecycle.go"
+	},
+	{
+		"description": "",
+		"deprecated-version": "v1.8",
+		"replacement-version": "apps.v1.DeploymentList",
+		"removed-version": "v1.16",
+		"group": "apps",
+		"version": "v1beta1",
+		"kind": "DeploymentList",
+		"ref": "https://github.com/kubernetes/kubernetes/tree/master/staging/src/k8s.io/api/apps/v1beta1/zz_generated.prerelease-lifecycle.go"
+	},
+	{
+		"description": "",
+		"deprecated-version": "v1.8",
+		"replacement-version": "apps.v1.DeploymentRollback",
+		"removed-version": "v1.16",
+		"group": "apps",
+		"version": "v1beta1",
+		"kind": "DeploymentRollback",
+		"ref": "https://github.com/kubernetes/kubernetes/tree/master/staging/src/k8s.io/api/apps/v1beta1/zz_generated.prerelease-lifecycle.go"
+	},
+	{
+		"description": "",
+		"deprecated-version": "v1.17",
+		"replacement-version": "rbac.authorization.k8s.io.v1.ClusterRole",
+		"removed-version": "v1.22",
+		"group": "rbac",
+		"version": "v1beta1",
+		"kind": "ClusterRole",
+		"ref": "https://github.com/kubernetes/kubernetes/tree/master/staging/src/k8s.io/api/rbac/v1beta1/zz_generated.prerelease-lifecycle.go"
+	},
+	{
+		"description": "",
+		"deprecated-version": "v1.14",
+		"replacement-version": "scheduling.k8s.io.v1.PriorityClassList",
+		"removed-version": "v1.22",
+		"group": "scheduling",
+		"version": "v1beta1",
+		"kind": "PriorityClassList",
+		"ref": "https://github.com/kubernetes/kubernetes/tree/master/staging/src/k8s.io/api/scheduling/v1beta1/zz_generated.prerelease-lifecycle.go"
+	},
+	{
+		"description": "",
+		"deprecated-version": "v1.21",
+		"replacement-version": "",
+		"removed-version": "v1.25",
+		"group": "policy",
+		"version": "v1beta1",
+		"kind": "PodSecurityPolicy",
+		"ref": "https://github.com/kubernetes/kubernetes/tree/master/staging/src/k8s.io/api/policy/v1beta1/zz_generated.prerelease-lifecycle.go"
+	},
+	{
+		"description": "",
+		"deprecated-version": "v1.22",
+		"replacement-version": "",
+		"removed-version": "v1.25",
+		"group": "events",
+		"version": "v1beta1",
+		"kind": "Event",
+		"ref": "https://github.com/kubernetes/kubernetes/tree/master/staging/src/k8s.io/api/events/v1beta1/zz_generated.prerelease-lifecycle.go"
+	},
+	{
+		"description": "",
+		"deprecated-version": "v1.26",
+		"replacement-version": "",
+		"removed-version": "v1.29",
+		"group": "flowcontrol",
+		"version": "v1beta2",
+		"kind": "PriorityLevelConfigurationList",
+		"ref": "https://github.com/kubernetes/kubernetes/tree/master/staging/src/k8s.io/api/flowcontrol/v1beta2/zz_generated.prerelease-lifecycle.go"
+	},
+	{
+		"description": "",
+		"deprecated-version": "v1.28",
+		"replacement-version": "",
+		"removed-version": "v1.31",
+		"group": "networking",
+		"version": "v1alpha1",
+		"kind": "ClusterCIDRList",
+		"ref": "https://github.com/kubernetes/kubernetes/tree/master/staging/src/k8s.io/api/networking/v1alpha1/zz_generated.prerelease-lifecycle.go"
 	}
 ]
