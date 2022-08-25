@@ -1,18 +1,28 @@
 {
+	"admission.k8s.io/v1beta1": {
+		"AdmissionReview": {
+			"ref": "https://github.com/kubernetes/kubernetes/tree/master/staging/src/k8s.io/api/admission/v1beta1/zz_generated.prerelease-lifecycle.go",
+			"replacement_version": "admission.k8s.io.v1.AdmissionReview"
+		}
+	},
 	"admission/v1beta1": {
 		"AdmissionReview": {
 			"deprecation_version": "v1.19",
 			"ref": "https://github.com/kubernetes/kubernetes/tree/master/staging/src/k8s.io/api/admission/v1beta1/zz_generated.prerelease-lifecycle.go",
-			"removed_version": "v1.22",
-			"replacement_version": "admission.k8s.io.v1.AdmissionReview"
+			"removed_version": "v1.22"
+		}
+	},
+	"admissionregistration.k8s.io/v1beta1": {
+		"MutatingWebhookConfiguration": {
+			"ref": "https://github.com/kubernetes/kubernetes/tree/master/staging/src/k8s.io/api/admissionregistration/v1beta1/zz_generated.prerelease-lifecycle.go",
+			"replacement_version": "admissionregistration.k8s.io.v1.MutatingWebhookConfiguration"
 		}
 	},
 	"admissionregistration/v1beta1": {
 		"MutatingWebhookConfiguration": {
 			"deprecation_version": "v1.16",
 			"ref": "https://github.com/kubernetes/kubernetes/tree/master/staging/src/k8s.io/api/admissionregistration/v1beta1/zz_generated.prerelease-lifecycle.go",
-			"removed_version": "v1.22",
-			"replacement_version": "admissionregistration.k8s.io.v1.MutatingWebhookConfiguration"
+			"removed_version": "v1.22"
 		},
 		"MutatingWebhookConfigurationList": {
 			"deprecation_version": "v1.16",
@@ -45,6 +55,10 @@
 			"ref": "https://github.com/kubernetes/kubernetes/tree/master/staging/src/k8s.io/api/apps/v1beta1/zz_generated.prerelease-lifecycle.go",
 			"removed_version": "v1.16",
 			"replacement_version": "apps.v1.ControllerRevisionList"
+		},
+		"DaemonSet": {
+			"ref": "https://github.com/kubernetes/kubernetes/tree/master/staging/src/k8s.io/api/extensions/v1beta1/zz_generated.prerelease-lifecycle.go",
+			"replacement_version": "apps.v1.DaemonSet"
 		},
 		"Deployment": {
 			"deprecation_version": "v1.8",
@@ -151,20 +165,30 @@
 			"replacement_version": "apps.v1.StatefulSetList"
 		}
 	},
+	"authentication.k8s.io/v1beta1": {
+		"TokenReview": {
+			"ref": "https://github.com/kubernetes/kubernetes/tree/master/staging/src/k8s.io/api/authentication/v1beta1/zz_generated.prerelease-lifecycle.go",
+			"replacement_version": "authentication.k8s.io.v1.TokenReview"
+		}
+	},
 	"authentication/v1beta1": {
 		"TokenReview": {
 			"deprecation_version": "v1.19",
 			"ref": "https://github.com/kubernetes/kubernetes/tree/master/staging/src/k8s.io/api/authentication/v1beta1/zz_generated.prerelease-lifecycle.go",
-			"removed_version": "v1.22",
-			"replacement_version": "authentication.k8s.io.v1.TokenReview"
+			"removed_version": "v1.22"
+		}
+	},
+	"authorization.k8s.io/v1beta1": {
+		"LocalSubjectAccessReview": {
+			"ref": "https://github.com/kubernetes/kubernetes/tree/master/staging/src/k8s.io/api/authorization/v1beta1/zz_generated.prerelease-lifecycle.go",
+			"replacement_version": "authorization.k8s.io.v1.LocalSubjectAccessReview"
 		}
 	},
 	"authorization/v1beta1": {
 		"LocalSubjectAccessReview": {
 			"deprecation_version": "v1.19",
 			"ref": "https://github.com/kubernetes/kubernetes/tree/master/staging/src/k8s.io/api/authorization/v1beta1/zz_generated.prerelease-lifecycle.go",
-			"removed_version": "v1.22",
-			"replacement_version": "authorization.k8s.io.v1.LocalSubjectAccessReview"
+			"removed_version": "v1.22"
 		},
 		"SelfSubjectAccessReview": {
 			"deprecation_version": "v1.19",
@@ -231,12 +255,17 @@
 			"removed_version": "v1.25"
 		}
 	},
+	"certificates.k8s.io/v1beta1": {
+		"CertificateSigningRequest": {
+			"ref": "https://github.com/kubernetes/kubernetes/tree/master/staging/src/k8s.io/api/certificates/v1beta1/zz_generated.prerelease-lifecycle.go",
+			"replacement_version": "certificates.k8s.io.v1.CertificateSigningRequest"
+		}
+	},
 	"certificates/v1beta1": {
 		"CertificateSigningRequest": {
 			"deprecation_version": "v1.19",
 			"ref": "https://github.com/kubernetes/kubernetes/tree/master/staging/src/k8s.io/api/certificates/v1beta1/zz_generated.prerelease-lifecycle.go",
-			"removed_version": "v1.22",
-			"replacement_version": "certificates.k8s.io.v1.CertificateSigningRequest"
+			"removed_version": "v1.22"
 		},
 		"CertificateSigningRequestList": {
 			"deprecation_version": "v1.19",
@@ -245,12 +274,17 @@
 			"replacement_version": "certificates.k8s.io.v1.CertificateSigningRequestList"
 		}
 	},
+	"coordination.k8s.io/v1beta1": {
+		"Lease": {
+			"ref": "https://github.com/kubernetes/kubernetes/tree/master/staging/src/k8s.io/api/coordination/v1beta1/zz_generated.prerelease-lifecycle.go",
+			"replacement_version": "coordination.k8s.io.v1.Lease"
+		}
+	},
 	"coordination/v1beta1": {
 		"Lease": {
 			"deprecation_version": "v1.19",
 			"ref": "https://github.com/kubernetes/kubernetes/tree/master/staging/src/k8s.io/api/coordination/v1beta1/zz_generated.prerelease-lifecycle.go",
-			"removed_version": "v1.22",
-			"replacement_version": "coordination.k8s.io.v1.Lease"
+			"removed_version": "v1.22"
 		},
 		"LeaseList": {
 			"deprecation_version": "v1.19",
@@ -259,12 +293,17 @@
 			"replacement_version": "coordination.k8s.io.v1.LeaseList"
 		}
 	},
+	"discovery.k8s.io/v1beta1": {
+		"EndpointSlice": {
+			"ref": "https://github.com/kubernetes/kubernetes/tree/master/staging/src/k8s.io/api/discovery/v1beta1/zz_generated.prerelease-lifecycle.go",
+			"replacement_version": "discovery.k8s.io.v1.EndpointSlice"
+		}
+	},
 	"discovery/v1beta1": {
 		"EndpointSlice": {
 			"deprecation_version": "v1.21",
 			"ref": "https://github.com/kubernetes/kubernetes/tree/master/staging/src/k8s.io/api/discovery/v1beta1/zz_generated.prerelease-lifecycle.go",
-			"removed_version": "v1.25",
-			"replacement_version": "discovery.k8s.io.v1.EndpointSlice"
+			"removed_version": "v1.25"
 		},
 		"EndpointSliceList": {
 			"deprecation_version": "v1.21",
@@ -289,8 +328,7 @@
 		"DaemonSet": {
 			"deprecation_version": "v1.8",
 			"ref": "https://github.com/kubernetes/kubernetes/tree/master/staging/src/k8s.io/api/extensions/v1beta1/zz_generated.prerelease-lifecycle.go",
-			"removed_version": "v1.16",
-			"replacement_version": "apps.v1.DaemonSet"
+			"removed_version": "v1.16"
 		},
 		"DaemonSetList": {
 			"deprecation_version": "v1.8",
@@ -369,12 +407,23 @@
 			"removed_version": "v1.16"
 		}
 	},
+	"flowcontrol.apiserver.k8s.io/v1alpha1": {
+		"FlowSchema": {
+			"ref": "https://github.com/kubernetes/kubernetes/tree/master/staging/src/k8s.io/api/flowcontrol/v1alpha1/zz_generated.prerelease-lifecycle.go",
+			"replacement_version": "flowcontrol.apiserver.k8s.io.v1beta2.FlowSchema"
+		}
+	},
+	"flowcontrol.apiserver.k8s.io/v1beta1": {
+		"FlowSchema": {
+			"ref": "https://github.com/kubernetes/kubernetes/tree/master/staging/src/k8s.io/api/flowcontrol/v1beta1/zz_generated.prerelease-lifecycle.go",
+			"replacement_version": "flowcontrol.apiserver.k8s.io.v1beta2.FlowSchema"
+		}
+	},
 	"flowcontrol/v1alpha1": {
 		"FlowSchema": {
 			"deprecation_version": "v1.20",
 			"ref": "https://github.com/kubernetes/kubernetes/tree/master/staging/src/k8s.io/api/flowcontrol/v1alpha1/zz_generated.prerelease-lifecycle.go",
-			"removed_version": "v1.21",
-			"replacement_version": "flowcontrol.apiserver.k8s.io.v1beta2.FlowSchema"
+			"removed_version": "v1.21"
 		},
 		"FlowSchemaList": {
 			"deprecation_version": "v1.20",
@@ -399,8 +448,7 @@
 		"FlowSchema": {
 			"deprecation_version": "v1.23",
 			"ref": "https://github.com/kubernetes/kubernetes/tree/master/staging/src/k8s.io/api/flowcontrol/v1beta1/zz_generated.prerelease-lifecycle.go",
-			"removed_version": "v1.26",
-			"replacement_version": "flowcontrol.apiserver.k8s.io.v1beta2.FlowSchema"
+			"removed_version": "v1.26"
 		},
 		"FlowSchemaList": {
 			"deprecation_version": "v1.23",
@@ -443,6 +491,12 @@
 			"removed_version": "v1.29"
 		}
 	},
+	"networking.k8s.io/v1beta1": {
+		"Ingress": {
+			"ref": "https://github.com/kubernetes/kubernetes/tree/master/staging/src/k8s.io/api/networking/v1beta1/zz_generated.prerelease-lifecycle.go",
+			"replacement_version": "networking.k8s.io.v1.Ingress"
+		}
+	},
 	"networking/v1alpha1": {
 		"ClusterCIDR": {
 			"deprecation_version": "v1.28",
@@ -459,8 +513,7 @@
 		"Ingress": {
 			"deprecation_version": "v1.19",
 			"ref": "https://github.com/kubernetes/kubernetes/tree/master/staging/src/k8s.io/api/networking/v1beta1/zz_generated.prerelease-lifecycle.go",
-			"removed_version": "v1.22",
-			"replacement_version": "networking.k8s.io.v1.Ingress"
+			"removed_version": "v1.22"
 		},
 		"IngressClass": {
 			"deprecation_version": "v1.19",
@@ -522,12 +575,17 @@
 			"removed_version": "v1.25"
 		}
 	},
+	"rbac.authorization.k8s.io/v1beta1": {
+		"ClusterRole": {
+			"ref": "https://github.com/kubernetes/kubernetes/tree/master/staging/src/k8s.io/api/rbac/v1beta1/zz_generated.prerelease-lifecycle.go",
+			"replacement_version": "rbac.authorization.k8s.io.v1.ClusterRole"
+		}
+	},
 	"rbac/v1beta1": {
 		"ClusterRole": {
 			"deprecation_version": "v1.17",
 			"ref": "https://github.com/kubernetes/kubernetes/tree/master/staging/src/k8s.io/api/rbac/v1beta1/zz_generated.prerelease-lifecycle.go",
-			"removed_version": "v1.22",
-			"replacement_version": "rbac.authorization.k8s.io.v1.ClusterRole"
+			"removed_version": "v1.22"
 		},
 		"ClusterRoleBinding": {
 			"deprecation_version": "v1.17",
@@ -572,12 +630,17 @@
 			"replacement_version": "rbac.authorization.k8s.io.v1.RoleList"
 		}
 	},
+	"scheduling.k8s.io/v1beta1": {
+		"PriorityClass": {
+			"ref": "https://github.com/kubernetes/kubernetes/tree/master/staging/src/k8s.io/api/scheduling/v1beta1/zz_generated.prerelease-lifecycle.go",
+			"replacement_version": "scheduling.k8s.io.v1.PriorityClass"
+		}
+	},
 	"scheduling/v1beta1": {
 		"PriorityClass": {
 			"deprecation_version": "v1.14",
 			"ref": "https://github.com/kubernetes/kubernetes/tree/master/staging/src/k8s.io/api/scheduling/v1beta1/zz_generated.prerelease-lifecycle.go",
-			"removed_version": "v1.22",
-			"replacement_version": "scheduling.k8s.io.v1.PriorityClass"
+			"removed_version": "v1.22"
 		},
 		"PriorityClassList": {
 			"deprecation_version": "v1.14",
@@ -586,12 +649,23 @@
 			"replacement_version": "scheduling.k8s.io.v1.PriorityClassList"
 		}
 	},
+	"storage.k8s.io/v1alpha1": {
+		"CSIStorageCapacity": {
+			"ref": "https://github.com/kubernetes/kubernetes/tree/master/staging/src/k8s.io/api/storage/v1alpha1/zz_generated.prerelease-lifecycle.go",
+			"replacement_version": "storage.k8s.io.v1beta1.CSIStorageCapacity"
+		}
+	},
+	"storage.k8s.io/v1beta1": {
+		"CSIDriver": {
+			"ref": "https://github.com/kubernetes/kubernetes/tree/master/staging/src/k8s.io/api/storage/v1beta1/zz_generated.prerelease-lifecycle.go",
+			"replacement_version": "storage.k8s.io.v1.CSIDriver"
+		}
+	},
 	"storage/v1alpha1": {
 		"CSIStorageCapacity": {
 			"deprecation_version": "v1.21",
 			"ref": "https://github.com/kubernetes/kubernetes/tree/master/staging/src/k8s.io/api/storage/v1alpha1/zz_generated.prerelease-lifecycle.go",
-			"removed_version": "v1.24",
-			"replacement_version": "storage.k8s.io.v1beta1.CSIStorageCapacity"
+			"removed_version": "v1.24"
 		},
 		"CSIStorageCapacityList": {
 			"deprecation_version": "v1.21",
@@ -616,8 +690,7 @@
 		"CSIDriver": {
 			"deprecation_version": "v1.19",
 			"ref": "https://github.com/kubernetes/kubernetes/tree/master/staging/src/k8s.io/api/storage/v1beta1/zz_generated.prerelease-lifecycle.go",
-			"removed_version": "v1.22",
-			"replacement_version": "storage.k8s.io.v1.CSIDriver"
+			"removed_version": "v1.22"
 		},
 		"CSIDriverList": {
 			"deprecation_version": "v1.19",
