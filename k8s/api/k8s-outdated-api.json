@@ -381,25 +381,25 @@
 			"deprecation_version": "v1.20",
 			"ref": "https://github.com/kubernetes/kubernetes/tree/master/staging/src/k8s.io/api/flowcontrol/v1alpha1/zz_generated.prerelease-lifecycle.go",
 			"removed_version": "v1.21",
-			"replacement_version": "flowcontrol.apiserver.k8s.io.v1beta2.FlowSchema"
+			"replacement_version": "flowcontrol.apiserver.k8s.io.v1beta3.FlowSchema"
 		},
 		"FlowSchemaList": {
 			"deprecation_version": "v1.20",
 			"ref": "https://github.com/kubernetes/kubernetes/tree/master/staging/src/k8s.io/api/flowcontrol/v1alpha1/zz_generated.prerelease-lifecycle.go",
 			"removed_version": "v1.21",
-			"replacement_version": "flowcontrol.apiserver.k8s.io.v1beta2.FlowSchemaList"
+			"replacement_version": "flowcontrol.apiserver.k8s.io.v1beta3.FlowSchemaList"
 		},
 		"PriorityLevelConfiguration": {
 			"deprecation_version": "v1.20",
 			"ref": "https://github.com/kubernetes/kubernetes/tree/master/staging/src/k8s.io/api/flowcontrol/v1alpha1/zz_generated.prerelease-lifecycle.go",
 			"removed_version": "v1.21",
-			"replacement_version": "flowcontrol.apiserver.k8s.io.v1beta2.PriorityLevelConfiguration"
+			"replacement_version": "flowcontrol.apiserver.k8s.io.v1beta3.PriorityLevelConfiguration"
 		},
 		"PriorityLevelConfigurationList": {
 			"deprecation_version": "v1.20",
 			"ref": "https://github.com/kubernetes/kubernetes/tree/master/staging/src/k8s.io/api/flowcontrol/v1alpha1/zz_generated.prerelease-lifecycle.go",
 			"removed_version": "v1.21",
-			"replacement_version": "flowcontrol.apiserver.k8s.io.v1beta2.PriorityLevelConfigurationList"
+			"replacement_version": "flowcontrol.apiserver.k8s.io.v1beta3.PriorityLevelConfigurationList"
 		}
 	},
 	"flowcontrol.apiserver.k8s.io/v1beta1": {
@@ -407,47 +407,73 @@
 			"deprecation_version": "v1.23",
 			"ref": "https://github.com/kubernetes/kubernetes/tree/master/staging/src/k8s.io/api/flowcontrol/v1beta1/zz_generated.prerelease-lifecycle.go",
 			"removed_version": "v1.26",
-			"replacement_version": "flowcontrol.apiserver.k8s.io.v1beta2.FlowSchema"
+			"replacement_version": "flowcontrol.apiserver.k8s.io.v1beta3.FlowSchema"
 		},
 		"FlowSchemaList": {
 			"deprecation_version": "v1.23",
 			"ref": "https://github.com/kubernetes/kubernetes/tree/master/staging/src/k8s.io/api/flowcontrol/v1beta1/zz_generated.prerelease-lifecycle.go",
 			"removed_version": "v1.26",
-			"replacement_version": "flowcontrol.apiserver.k8s.io.v1beta2.FlowSchemaList"
+			"replacement_version": "flowcontrol.apiserver.k8s.io.v1beta3.FlowSchemaList"
 		},
 		"PriorityLevelConfiguration": {
 			"deprecation_version": "v1.23",
 			"ref": "https://github.com/kubernetes/kubernetes/tree/master/staging/src/k8s.io/api/flowcontrol/v1beta1/zz_generated.prerelease-lifecycle.go",
 			"removed_version": "v1.26",
-			"replacement_version": "flowcontrol.apiserver.k8s.io.v1beta2.PriorityLevelConfiguration"
+			"replacement_version": "flowcontrol.apiserver.k8s.io.v1beta3.PriorityLevelConfiguration"
 		},
 		"PriorityLevelConfigurationList": {
 			"deprecation_version": "v1.23",
 			"ref": "https://github.com/kubernetes/kubernetes/tree/master/staging/src/k8s.io/api/flowcontrol/v1beta1/zz_generated.prerelease-lifecycle.go",
 			"removed_version": "v1.26",
-			"replacement_version": "flowcontrol.apiserver.k8s.io.v1beta2.PriorityLevelConfigurationList"
+			"replacement_version": "flowcontrol.apiserver.k8s.io.v1beta3.PriorityLevelConfigurationList"
 		}
 	},
-	"flowcontrol/v1beta2": {
+	"flowcontrol.apiserver.k8s.io/v1beta2": {
 		"FlowSchema": {
 			"deprecation_version": "v1.26",
 			"ref": "https://github.com/kubernetes/kubernetes/tree/master/staging/src/k8s.io/api/flowcontrol/v1beta2/zz_generated.prerelease-lifecycle.go",
-			"removed_version": "v1.29"
+			"removed_version": "v1.29",
+			"replacement_version": "flowcontrol.apiserver.k8s.io.v1beta3.FlowSchema"
 		},
 		"FlowSchemaList": {
 			"deprecation_version": "v1.26",
 			"ref": "https://github.com/kubernetes/kubernetes/tree/master/staging/src/k8s.io/api/flowcontrol/v1beta2/zz_generated.prerelease-lifecycle.go",
-			"removed_version": "v1.29"
+			"removed_version": "v1.29",
+			"replacement_version": "flowcontrol.apiserver.k8s.io.v1beta3.FlowSchemaList"
 		},
 		"PriorityLevelConfiguration": {
 			"deprecation_version": "v1.26",
 			"ref": "https://github.com/kubernetes/kubernetes/tree/master/staging/src/k8s.io/api/flowcontrol/v1beta2/zz_generated.prerelease-lifecycle.go",
-			"removed_version": "v1.29"
+			"removed_version": "v1.29",
+			"replacement_version": "flowcontrol.apiserver.k8s.io.v1beta3.PriorityLevelConfiguration"
 		},
 		"PriorityLevelConfigurationList": {
 			"deprecation_version": "v1.26",
 			"ref": "https://github.com/kubernetes/kubernetes/tree/master/staging/src/k8s.io/api/flowcontrol/v1beta2/zz_generated.prerelease-lifecycle.go",
-			"removed_version": "v1.29"
+			"removed_version": "v1.29",
+			"replacement_version": "flowcontrol.apiserver.k8s.io.v1beta3.PriorityLevelConfigurationList"
+		}
+	},
+	"flowcontrol/v1beta3": {
+		"FlowSchema": {
+			"deprecation_version": "v1.29",
+			"ref": "https://github.com/kubernetes/kubernetes/tree/master/staging/src/k8s.io/api/flowcontrol/v1beta3/zz_generated.prerelease-lifecycle.go",
+			"removed_version": "v1.32"
+		},
+		"FlowSchemaList": {
+			"deprecation_version": "v1.29",
+			"ref": "https://github.com/kubernetes/kubernetes/tree/master/staging/src/k8s.io/api/flowcontrol/v1beta3/zz_generated.prerelease-lifecycle.go",
+			"removed_version": "v1.32"
+		},
+		"PriorityLevelConfiguration": {
+			"deprecation_version": "v1.29",
+			"ref": "https://github.com/kubernetes/kubernetes/tree/master/staging/src/k8s.io/api/flowcontrol/v1beta3/zz_generated.prerelease-lifecycle.go",
+			"removed_version": "v1.32"
+		},
+		"PriorityLevelConfigurationList": {
+			"deprecation_version": "v1.29",
+			"ref": "https://github.com/kubernetes/kubernetes/tree/master/staging/src/k8s.io/api/flowcontrol/v1beta3/zz_generated.prerelease-lifecycle.go",
+			"removed_version": "v1.32"
 		}
 	},
 	"networking.k8s.io/v1beta1": {
