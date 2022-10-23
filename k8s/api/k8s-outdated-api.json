@@ -33,6 +33,18 @@
 			"replacement_version": "admissionregistration.k8s.io.v1.ValidatingWebhookConfigurationList"
 		}
 	},
+	"apidiscovery/v2beta1": {
+		"APIGroupDiscovery": {
+			"deprecation_version": "v1.32",
+			"ref": "https://github.com/kubernetes/kubernetes/tree/master/staging/src/k8s.io/api/apidiscovery/v2beta1/zz_generated.prerelease-lifecycle.go",
+			"removed_version": "v1.35"
+		},
+		"APIGroupDiscoveryList": {
+			"deprecation_version": "v1.32",
+			"ref": "https://github.com/kubernetes/kubernetes/tree/master/staging/src/k8s.io/api/apidiscovery/v2beta1/zz_generated.prerelease-lifecycle.go",
+			"removed_version": "v1.35"
+		}
+	},
 	"apps/v1beta1": {
 		"DaemonSet": {
 			"deprecation_version": "v1.8",
