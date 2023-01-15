@@ -99,18 +99,6 @@
 			"removed_version": "v1.16",
 			"replacement_version": "networking.k8s.io.v1.NetworkPolicyList"
 		},
-		"PodSecurityPolicy": {
-			"deprecation_version": "v1.11",
-			"ref": "https://github.com/kubernetes/kubernetes/tree/master/staging/src/k8s.io/api/extensions/v1beta1/zz_generated.prerelease-lifecycle.go",
-			"removed_version": "v1.16",
-			"replacement_version": "policy.v1beta1.PodSecurityPolicy"
-		},
-		"PodSecurityPolicyList": {
-			"deprecation_version": "v1.11",
-			"ref": "https://github.com/kubernetes/kubernetes/tree/master/staging/src/k8s.io/api/extensions/v1beta1/zz_generated.prerelease-lifecycle.go",
-			"removed_version": "v1.16",
-			"replacement_version": "policy.v1beta1.PodSecurityPolicyList"
-		},
 		"ReplicaSet": {
 			"deprecation_version": "v1.8",
 			"ref": "https://github.com/kubernetes/kubernetes/tree/master/staging/src/k8s.io/api/extensions/v1beta1/zz_generated.prerelease-lifecycle.go",
