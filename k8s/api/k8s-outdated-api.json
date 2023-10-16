@@ -509,16 +509,6 @@
 		}
 	},
 	"networking/v1alpha1": {
-		"ClusterCIDR": {
-			"deprecation_version": "v1.28",
-			"ref": "https://github.com/kubernetes/kubernetes/tree/master/staging/src/k8s.io/api/networking/v1alpha1/zz_generated.prerelease-lifecycle.go",
-			"removed_version": "v1.31"
-		},
-		"ClusterCIDRList": {
-			"deprecation_version": "v1.28",
-			"ref": "https://github.com/kubernetes/kubernetes/tree/master/staging/src/k8s.io/api/networking/v1alpha1/zz_generated.prerelease-lifecycle.go",
-			"removed_version": "v1.31"
-		},
 		"IPAddress": {
 			"deprecation_version": "v1.30",
 			"ref": "https://github.com/kubernetes/kubernetes/tree/master/staging/src/k8s.io/api/networking/v1alpha1/zz_generated.prerelease-lifecycle.go",
