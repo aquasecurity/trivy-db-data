@@ -460,26 +460,30 @@
 			"replacement_version": "flowcontrol.apiserver.k8s.io.v1beta3.PriorityLevelConfigurationList"
 		}
 	},
-	"flowcontrol/v1beta3": {
+	"flowcontrol.apiserver.k8s.io/v1beta3": {
 		"FlowSchema": {
 			"deprecation_version": "v1.29",
 			"ref": "https://github.com/kubernetes/kubernetes/tree/master/staging/src/k8s.io/api/flowcontrol/v1beta3/zz_generated.prerelease-lifecycle.go",
-			"removed_version": "v1.32"
+			"removed_version": "v1.32",
+			"replacement_version": "flowcontrol.apiserver.k8s.io.v1.FlowSchema"
 		},
 		"FlowSchemaList": {
 			"deprecation_version": "v1.29",
 			"ref": "https://github.com/kubernetes/kubernetes/tree/master/staging/src/k8s.io/api/flowcontrol/v1beta3/zz_generated.prerelease-lifecycle.go",
-			"removed_version": "v1.32"
+			"removed_version": "v1.32",
+			"replacement_version": "flowcontrol.apiserver.k8s.io.v1.FlowSchemaList"
 		},
 		"PriorityLevelConfiguration": {
 			"deprecation_version": "v1.29",
 			"ref": "https://github.com/kubernetes/kubernetes/tree/master/staging/src/k8s.io/api/flowcontrol/v1beta3/zz_generated.prerelease-lifecycle.go",
-			"removed_version": "v1.32"
+			"removed_version": "v1.32",
+			"replacement_version": "flowcontrol.apiserver.k8s.io.v1.PriorityLevelConfiguration"
 		},
 		"PriorityLevelConfigurationList": {
 			"deprecation_version": "v1.29",
 			"ref": "https://github.com/kubernetes/kubernetes/tree/master/staging/src/k8s.io/api/flowcontrol/v1beta3/zz_generated.prerelease-lifecycle.go",
-			"removed_version": "v1.32"
+			"removed_version": "v1.32",
+			"replacement_version": "flowcontrol.apiserver.k8s.io.v1.PriorityLevelConfigurationList"
 		}
 	},
 	"networking.k8s.io/v1beta1": {
@@ -639,6 +643,16 @@
 			"ref": "https://github.com/kubernetes/kubernetes/tree/master/staging/src/k8s.io/api/storage/v1alpha1/zz_generated.prerelease-lifecycle.go",
 			"removed_version": "v1.24",
 			"replacement_version": "storage.k8s.io.v1.VolumeAttachmentList"
+		},
+		"VolumeAttributesClass": {
+			"deprecation_version": "v1.32",
+			"ref": "https://github.com/kubernetes/kubernetes/tree/master/staging/src/k8s.io/api/storage/v1alpha1/zz_generated.prerelease-lifecycle.go",
+			"removed_version": "v1.35"
+		},
+		"VolumeAttributesClassList": {
+			"deprecation_version": "v1.32",
+			"ref": "https://github.com/kubernetes/kubernetes/tree/master/staging/src/k8s.io/api/storage/v1alpha1/zz_generated.prerelease-lifecycle.go",
+			"removed_version": "v1.35"
 		}
 	},
 	"storage.k8s.io/v1beta1": {
